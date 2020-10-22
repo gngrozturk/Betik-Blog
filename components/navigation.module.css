@@ -1,0 +1,23 @@
+.bgColor {
+  background-color: #f9f9f9;
+}
+
+.dropdownItem:hover {
+  background-color: white;
+}
+
+.dropdownItem {
+  text-align: center;
+}
+
+.nav {
+  font-family: "Roboto", sans-serif;
+  margin-left: auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .mainItems {
+    margin-right: 1em;
+  }
+}

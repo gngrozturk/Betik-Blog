@@ -1,0 +1,66 @@
+import Head from "next/head";
+import Link from "next/link";
+import Layout from "../components/layout";
+import unfetch from "isomorphic-unfetch";
+import Image from "react-bootstrap/Image";
+import slug from "slug";
+import { Container, Row } from "react-bootstrap";
+import Card from "react-bootstrap/Card";
+import Col from "react-bootstrap/Col";
+import styles from "./username.module.css";
+
+function HomePage({ guestarticles }) {
+  return (
+    <Layout>
+    <Head>
+        <title>Misafir Yazarlar</title>
+      </Head>
+
+      <Container className="my-5">
+        <Row>
+          {guestarticles.map((guestarticle) => (
+            <Col sm={3} md={6} lg={3} className="my-2">
+              <Link
+                href="/guestarticle/[guestslug]"
+                as={`/guestarticle/${slug(guestarticle.guesttitle)}-${guestarticle.id}`}
+              >
+                <Card key={guestarticle.id} className={styles.cardGeneral}>
+                  <Card.Img
+                    className={styles.cardImg}
+                    variant="top"
+                    src={guestarticle.guestbanner.name}
+                  />
+                  <Card.Body>
+                    <h2 className={styles.cardTitle}>
+                      {guestarticle.guesttitle}
+                    </h2>
+                    <br />
+                    <h5>
+                      {guestarticle.guestname}
+                    </h5>
+                  </Card.Body>
+                  <Card.Footer>
+                    <small className="text-muted"><i class="far fa-clock"></i> {guestarticle.guestdate}</small>
+                  </Card.Footer>
+                </Card>
+              </Link>
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </Layout>
+  );
+}
+
+export async function getStaticProps() {
+  const data = await unfetch("http://localhost:1337/guestarticles?_sort=created_at:DESC");
+  const guestarticles = await data.json();
+
+  return {
+    props: {
+        guestarticles,
+    },
+  };
+}
+
+export default HomePage;

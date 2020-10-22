@@ -1,0 +1,7 @@
+export { default as Instagram } from './instagram'
+export { default as Twitter } from './twitter'
+export { default as Youtube } from './youtube'
+export { default as Mail } from './mail'
+export { default as Discord } from './discord'
+export { default as Spotify } from './spotify'
+export { default as Logo } from './logo'
