@@ -63,7 +63,7 @@ export async function getStaticPaths() {
 
   return {
     paths: articles.map((article) => {
-      return { params: { username: article.created_by.username } };
+      return { params: { username: article.created_by.username.toString() } };
     }),
 
     fallback: false,
