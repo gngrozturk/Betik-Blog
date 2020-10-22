@@ -58,7 +58,7 @@ function ArticleDetail({ articles }) {
 }
 
 export async function getStaticPaths() {
-  const data = await unfetch("http://localhost:1337/articles");
+  const data = await unfetch("https://betikblog.herokuapp.com/articles");
   const articles = await data.json();
 
   return {
@@ -77,7 +77,7 @@ export async function getStaticProps({ params }) {
     _sort: 'created_at:DESC'
   })
   const data = await unfetch(
-    `http://localhost:1337/articles?${query}`
+    `https://betikblog.herokuapp.com/articles?${query}`
   );
   
   const articles = await data.json();

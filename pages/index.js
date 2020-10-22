@@ -354,7 +354,7 @@ function HomePage({ articles, items, guestarticles }) {
 
 export async function getStaticProps() {
   const data = await unfetch(
-    "http://localhost:1337/articles?_sort=created_at:DESC"
+    "https://betikblog.herokuapp.com/articles?_sort=created_at:DESC"
   );
   const articles = await data.json();
 
@@ -364,7 +364,7 @@ export async function getStaticProps() {
   const videoJson = await video.json();
 
   const dataGuest = await unfetch(
-    "http://localhost:1337/guestarticles?_sort=created_at:DESC"
+    "https://betikblog.herokuapp.com/guestarticles?_sort=created_at:DESC"
   );
   const guestarticles = await dataGuest.json();
 

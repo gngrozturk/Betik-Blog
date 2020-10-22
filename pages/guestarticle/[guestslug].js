@@ -55,7 +55,7 @@ function ArticleDetail({ guestarticle }) {
 }
 
 export async function getStaticPaths() {
-  const data = await unfetch("http://localhost:1337/guestarticles");
+  const data = await unfetch("https://betikblog.herokuapp.com/guestarticles");
   const guestarticles = await data.json();
   return {
     paths: guestarticles.map((guestarticle) => {
@@ -72,7 +72,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const id = params.guestslug.split("-").slice(-1)[0];
-  const data = await unfetch("http://localhost:1337/guestarticles/" + id);
+  const data = await unfetch("https://betikblog.herokuapp.com/guestarticles/" + id);
 
   const guestarticle = await data.json();
 

@@ -53,7 +53,7 @@ function HomePage({ guestarticles }) {
 }
 
 export async function getStaticProps() {
-  const data = await unfetch("http://localhost:1337/guestarticles?_sort=created_at:DESC");
+  const data = await unfetch("https://betikblog.herokuapp.com/guestarticles?_sort=created_at:DESC");
   const guestarticles = await data.json();
 
   return {
