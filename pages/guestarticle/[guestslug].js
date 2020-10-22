@@ -54,23 +54,7 @@ function ArticleDetail({ guestarticle }) {
   );
 }
 
-export async function getStaticPaths() {
-  const data = await unfetch("https://betikblog.herokuapp.com/guestarticles");
-  const guestarticles = await data.json();
-  return {
-    paths: guestarticles.map((guestarticle) => {
-      return {
-        params: {
-          guestslug: `${slug(guestarticle.guesttitle)}-${guestarticle.id}`,
-        },
-      };
-    }),
-
-    fallback: false,
-  };
-}
-
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
   const id = params.guestslug.split("-").slice(-1)[0];
   const data = await unfetch("https://betikblog.herokuapp.com/guestarticles/" + id);
 

@@ -64,19 +64,8 @@ function ArticleDetail({ article }) {
   );
 }
 
-export async function getStaticPaths() {
-  const data = await unfetch("https://betikblog.herokuapp.com/articles");
-  const articles = await data.json();
-  return {
-    paths: articles.map((article) => {
-      return { params: { slug: `${slug(article.title)}-${article.id}` } };
-    }),
 
-    fallback: false,
-  };
-}
-
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
   const id = params.slug.split("-").slice(-1)[0];
   const data = await unfetch("https://betikblog.herokuapp.com/articles/" + id);
 

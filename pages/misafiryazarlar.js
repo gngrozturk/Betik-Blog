@@ -52,7 +52,7 @@ function HomePage({ guestarticles }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const data = await unfetch("https://betikblog.herokuapp.com/guestarticles?_sort=created_at:DESC");
   const guestarticles = await data.json();
 

@@ -57,20 +57,7 @@ function ArticleDetail({ articles }) {
   );
 }
 
-export async function getStaticPaths() {
-  const data = await unfetch("https://betikblog.herokuapp.com/articles");
-  const articles = await data.json();
-
-  return {
-    paths: articles.map((article) => {
-      return { params: { username: article.created_by.username.toString() } };
-    }),
-
-    fallback: false,
-  };
-}
-
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
   const username = params.username;
   const query = qs.stringify({
     _where: [{"created_by.username": username}],
