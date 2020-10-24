@@ -2,7 +2,6 @@ import Head from "next/head";
 import Link from "next/link";
 import Layout from "../components/layout";
 import unfetch from "isomorphic-unfetch";
-import Image from "react-bootstrap/Image";
 import slug from "slug";
 import { Container, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
