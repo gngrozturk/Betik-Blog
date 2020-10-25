@@ -171,7 +171,7 @@ function HomePage({ articles, items, guestarticles }) {
           <Col lg={8}>
             <Card className={styles.announceCard}>
               <Card.Body>
-                <h3 className={styles.titleCenter}>
+                <h3 className={styles.announceTitle}>
                   Nasıl Misafir Yazar Olunur ?
                 </h3>
                 <br />
@@ -224,7 +224,7 @@ function HomePage({ articles, items, guestarticles }) {
               <h3 className={styles.titleCenter}>Takımımız</h3>
             </Row>
             <Row className={styles.contentCenter}>
-              <Col md={6} lg={3}>
+              <Col md={6} lg={3} className={styles.teamCol}>
               <Melih/>
                 <div className={styles.names}>
                   <h4>Melih Can Ekşioğlu</h4>
@@ -240,7 +240,7 @@ function HomePage({ articles, items, guestarticles }) {
                 </div>
               </Col>
 
-              <Col md={6} lg={3}>
+              <Col md={6} lg={3} className={styles.teamCol}>
               <Kubra/>
                 <div className={styles.names}>
                   <h4>Kübra Nur Bektaş</h4>
@@ -255,7 +255,7 @@ function HomePage({ articles, items, guestarticles }) {
                   </a>
                 </div>
               </Col>
-              <Col md={6} lg={3}>
+              <Col md={6} lg={3} className={styles.teamCol}>
               <Gungor/>
                 <div className={styles.names}>
                   <h4>Güngör Öztürk</h4>
@@ -270,7 +270,7 @@ function HomePage({ articles, items, guestarticles }) {
                   </a>
                 </div>
               </Col>
-              <Col md={6} lg={3}>
+              <Col md={6} lg={3} className={styles.teamCol}>
               <Furkan/>
                 <div className={styles.names}>
                   <h4>Furkan Öztekin</h4>
