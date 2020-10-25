@@ -21,9 +21,8 @@ function Team() {
                 <Card.Body>
                   <Row>
                     <Col lg={3}>
-                      <Row className={styles.mediaRow}>
-                     <Melih/>
-                      </Row>
+                      
+                        <Melih />
                       <Row className={styles.mediaRow}>
                         <a href="https://instagram.com/kubraabektas?igshid=x95apt5mfox5">
                           <Instagram className={styles.icon} />
@@ -87,9 +86,9 @@ function Team() {
                 <Card.Body>
                   <Row>
                     <Col lg={3}>
-                      <Row className={styles.mediaRow}>
-                      <Kubra/>
-                      </Row>
+                      
+                        <Kubra />
+                      
                       <Row className={styles.mediaRow}>
                         <a href="https://instagram.com/kubraabektas?igshid=x95apt5mfox5">
                           <Instagram className={styles.icon} />
@@ -147,9 +146,9 @@ function Team() {
                 <Card.Body>
                   <Row>
                     <Col lg={3}>
-                      <Row className={styles.mediaRow}>
-                      <Gungor/>
-                      </Row>
+                      
+                        <Gungor />
+                      
                       <Row className={styles.mediaRow}>
                         <a href="https://www.instagram.com/ozturkk.gungor/">
                           <Instagram className={styles.icon} />
@@ -203,9 +202,8 @@ function Team() {
                 <Card.Body>
                   <Row>
                     <Col lg={3}>
-                      <Row className={styles.mediaRow}>
-                      <Furkan/>
-                      </Row>
+                      <Furkan />
+
                       <Row className={styles.mediaRow}>
                         <a href="https://www.instagram.com/oztekinfurkan03/?igshid=5s0mt1owyqxl">
                           <Instagram className={styles.icon} />
@@ -258,9 +256,8 @@ function Team() {
                 <Card.Body>
                   <Row>
                     <Col lg={3}>
-                      <Row className={styles.mediaRow}>
-                      <Salih/>
-                      </Row>
+                      <Salih />
+
                       <Row className={styles.mediaRow}>
                         <a href="https://instagram.com/salih.kn?igshid=143kt067e4q6j">
                           <Instagram className={styles.icon} />
