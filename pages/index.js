@@ -225,7 +225,10 @@ function HomePage({ articles, items, guestarticles }) {
             </Row>
             <Row className={styles.contentCenter}>
               <Col md={6} lg={3} className={styles.teamCol}>
-                <Melih />
+                <div className={styles.personImg}>
+                  <Melih />
+                </div>
+
                 <div className={styles.names}>
                   <h4>Melih Can Ekşioğlu</h4>
                   <h6>Yazar</h6>
@@ -241,7 +244,10 @@ function HomePage({ articles, items, guestarticles }) {
               </Col>
 
               <Col md={6} lg={3} className={styles.teamCol}>
-                <Kubra />
+                <div className={styles.personImg}>
+                  <Kubra />
+                </div>
+
                 <div className={styles.names}>
                   <h4>Kübra Nur Bektaş</h4>
                   <h6>Yazar</h6>
@@ -256,7 +262,11 @@ function HomePage({ articles, items, guestarticles }) {
                 </div>
               </Col>
               <Col md={6} lg={3} className={styles.teamCol}>
-                <Gungor />
+                <div className={styles.personImg}>
+                  {" "}
+                  <Gungor />
+                </div>
+
                 <div className={styles.names}>
                   <h4>Güngör Öztürk</h4>
                   <h6>Yazar</h6>
@@ -271,7 +281,10 @@ function HomePage({ articles, items, guestarticles }) {
                 </div>
               </Col>
               <Col md={6} lg={3} className={styles.teamCol}>
-                <Furkan />
+                <div className={styles.personImg}>
+                  <Furkan />
+                </div>
+
                 <div className={styles.names}>
                   <h4>Furkan Öztekin</h4>
                   <h6>Yazar</h6>
@@ -286,7 +299,11 @@ function HomePage({ articles, items, guestarticles }) {
                 </div>
               </Col>
               <Col md={6} lg={3}>
-                <Salih />
+                <div className={styles.personImg}>
+                  {" "}
+                  <Salih />
+                </div>
+
                 <div className={styles.names}>
                   <h4>Salih Akın</h4>
                   <h6>Sosyal Medya Sorumlusu</h6>
