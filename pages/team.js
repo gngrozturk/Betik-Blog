@@ -162,7 +162,7 @@ function Team() {
                     <Col lg={9}>
                       <Row>
                         <Col>
-                          <h4 className={styles.name}>Güngör Öztürk</h4>
+                          <h1 className={styles.name}>Güngör Öztürk</h1>
                           <p>
                             Herkese merhaba, ben Salih Akın. Orta Doğu Teknik
                             Üniversitesi Mimarlık Bölümü 1. sınıf öğrencisiyim.

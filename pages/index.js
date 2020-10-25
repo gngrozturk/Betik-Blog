@@ -81,7 +81,7 @@ function HomePage({ articles, items, guestarticles }) {
 
       <Container className="my-5">
         <Row className={styles.contentCenter}>
-          <h3 className={styles.titleCenter}>En Yeniler</h3>
+          <h1 className={styles.titleCenter}>En Yeniler</h1>
         </Row>
         <Row className={styles.contentCenter}>
           {articles.slice(0, 4).map((article) => (

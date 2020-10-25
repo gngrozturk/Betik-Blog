@@ -14,7 +14,7 @@ function BetikMedya({ items }) {
       </Head>
       <Container className="my-4">
         <Row className={styles.contentCenter}>
-          <h3 className={styles.titleCenter}>Betik Medya</h3>
+          <h1 className={styles.titleCenter}>Betik Medya</h1>
           <div className={styles.subscribe}>
             <span
               class="g-ytsubscribe"

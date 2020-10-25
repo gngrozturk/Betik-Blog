@@ -16,6 +16,9 @@ function HomePage({ guestarticles }) {
       </Head>
 
       <Container className="my-5">
+      <Row className={styles.contentCenter}>
+          <h1 className={styles.titleCenter}>Sizden Gelenler</h1>
+        </Row>
         <Row>
           {guestarticles.map((guestarticle) => (
             <Col sm={3} md={6} lg={3} className="my-2">

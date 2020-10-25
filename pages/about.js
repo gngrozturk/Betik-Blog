@@ -19,7 +19,7 @@ function About() {
             <Col md={10} lg={7}>
               <Card className={styles.aboutCard}>
                 <Card.Body>
-                  <h4 className={styles.aboutTitles}>Biz Kimiz ?</h4>
+                  <h1 className={styles.aboutTitles}>Biz Kimiz ?</h1>
                   <p>
                     Bizler sadece kadim tarihimizden ve inancımızdan aldığımız
                     güçle hiçbir zaman sahibi olamayacağımız zaman mefhumuna
