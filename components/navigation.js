@@ -68,9 +68,6 @@ function Navigation() {
             <Nav.Link href="/misafiryazarlar" className={styles.mainItems}>
               Misafir Yazarlar{" "}
             </Nav.Link>
-            <Nav.Link href="/betikmedya" className={styles.mainItems}>
-              Betik Medya
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
