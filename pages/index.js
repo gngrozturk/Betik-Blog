@@ -225,7 +225,7 @@ function HomePage({ articles, items, guestarticles }) {
             </Row>
             <Row className={styles.contentCenter}>
               <Col md={6} lg={3} className={styles.teamCol}>
-              <Melih/>
+                <Melih />
                 <div className={styles.names}>
                   <h4>Melih Can Ekşioğlu</h4>
                   <h6>Yazar</h6>
@@ -241,7 +241,7 @@ function HomePage({ articles, items, guestarticles }) {
               </Col>
 
               <Col md={6} lg={3} className={styles.teamCol}>
-              <Kubra/>
+                <Kubra />
                 <div className={styles.names}>
                   <h4>Kübra Nur Bektaş</h4>
                   <h6>Yazar</h6>
@@ -256,7 +256,7 @@ function HomePage({ articles, items, guestarticles }) {
                 </div>
               </Col>
               <Col md={6} lg={3} className={styles.teamCol}>
-              <Gungor/>
+                <Gungor />
                 <div className={styles.names}>
                   <h4>Güngör Öztürk</h4>
                   <h6>Yazar</h6>
@@ -271,7 +271,7 @@ function HomePage({ articles, items, guestarticles }) {
                 </div>
               </Col>
               <Col md={6} lg={3} className={styles.teamCol}>
-              <Furkan/>
+                <Furkan />
                 <div className={styles.names}>
                   <h4>Furkan Öztekin</h4>
                   <h6>Yazar</h6>
@@ -286,7 +286,7 @@ function HomePage({ articles, items, guestarticles }) {
                 </div>
               </Col>
               <Col md={6} lg={3}>
-              <Salih/>
+                <Salih />
                 <div className={styles.names}>
                   <h4>Salih Akın</h4>
                   <h6>Sosyal Medya Sorumlusu</h6>
