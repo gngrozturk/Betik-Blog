@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import styles from "./team.module.css";
 import { Instagram, Twitter } from "../components/icons";
+import { Gungor, Melih, Furkan, Kubra, Salih } from "../components/images";
 
 function Team() {
   return (
@@ -21,7 +22,7 @@ function Team() {
                   <Row>
                     <Col lg={3}>
                       <Row className={styles.mediaRow}>
-                     
+                     <Melih/>
                       </Row>
                       <Row className={styles.mediaRow}>
                         <a href="https://instagram.com/kubraabektas?igshid=x95apt5mfox5">
@@ -87,7 +88,7 @@ function Team() {
                   <Row>
                     <Col lg={3}>
                       <Row className={styles.mediaRow}>
-                      
+                      <Kubra/>
                       </Row>
                       <Row className={styles.mediaRow}>
                         <a href="https://instagram.com/kubraabektas?igshid=x95apt5mfox5">
@@ -147,7 +148,7 @@ function Team() {
                   <Row>
                     <Col lg={3}>
                       <Row className={styles.mediaRow}>
-                       
+                      <Gungor/>
                       </Row>
                       <Row className={styles.mediaRow}>
                         <a href="https://www.instagram.com/ozturkk.gungor/">
@@ -203,7 +204,7 @@ function Team() {
                   <Row>
                     <Col lg={3}>
                       <Row className={styles.mediaRow}>
-                     
+                      <Furkan/>
                       </Row>
                       <Row className={styles.mediaRow}>
                         <a href="https://www.instagram.com/oztekinfurkan03/?igshid=5s0mt1owyqxl">
@@ -258,7 +259,7 @@ function Team() {
                   <Row>
                     <Col lg={3}>
                       <Row className={styles.mediaRow}>
-                     
+                      <Salih/>
                       </Row>
                       <Row className={styles.mediaRow}>
                         <a href="https://instagram.com/salih.kn?igshid=143kt067e4q6j">

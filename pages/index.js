@@ -9,6 +9,7 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import styles from "./index.module.css";
 import { Spotify, Instagram, Twitter, Youtube } from "../components/icons";
+import { Gungor, Melih, Furkan, Kubra, Salih } from "../components/images";
 import Typewriter from "typewriter-effect";
 
 function HomePage({ articles, items, guestarticles }) {
@@ -224,7 +225,7 @@ function HomePage({ articles, items, guestarticles }) {
             </Row>
             <Row className={styles.contentCenter}>
               <Col md={6} lg={3}>
-              
+              <Melih/>
                 <div className={styles.names}>
                   <h4>Melih Can Ekşioğlu</h4>
                   <h6>Yazar</h6>
@@ -240,7 +241,7 @@ function HomePage({ articles, items, guestarticles }) {
               </Col>
 
               <Col md={6} lg={3}>
-             
+              <Kubra/>
                 <div className={styles.names}>
                   <h4>Kübra Nur Bektaş</h4>
                   <h6>Yazar</h6>
@@ -255,7 +256,7 @@ function HomePage({ articles, items, guestarticles }) {
                 </div>
               </Col>
               <Col md={6} lg={3}>
-              
+              <Gungor/>
                 <div className={styles.names}>
                   <h4>Güngör Öztürk</h4>
                   <h6>Yazar</h6>
@@ -270,7 +271,7 @@ function HomePage({ articles, items, guestarticles }) {
                 </div>
               </Col>
               <Col md={6} lg={3}>
-              
+              <Furkan/>
                 <div className={styles.names}>
                   <h4>Furkan Öztekin</h4>
                   <h6>Yazar</h6>
@@ -285,7 +286,7 @@ function HomePage({ articles, items, guestarticles }) {
                 </div>
               </Col>
               <Col md={6} lg={3}>
-              
+              <Salih/>
                 <div className={styles.names}>
                   <h4>Salih Akın</h4>
                   <h6>Sosyal Medya Sorumlusu</h6>
