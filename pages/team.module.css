@@ -20,10 +20,7 @@
 .mediaRow {
   justify-content: center;
 }
-.personImg {
-  max-width: 300px;
-  border-radius: 50%;
-}
+
 
 .icon {
   width: 25px;
