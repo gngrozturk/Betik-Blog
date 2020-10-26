@@ -16,7 +16,7 @@ function ArticleDetail({ article }) {
 
   (function () {
     var d = document,
-      s = d.createElement("script");
+    s = d.createElement("script");
     s.src = "https://betik.disqus.com/embed.js";
     s.setAttribute("data-timestamp", +new Date());
     (d.head || d.body).appendChild(s);
@@ -59,7 +59,6 @@ function ArticleDetail({ article }) {
         <Row className={styles.content}>
           <Col lg={9}>
             <Markdown className={styles.text}>{article.content}</Markdown>
-            
 
             <div id="disqus_thread"></div>
 
@@ -71,6 +70,7 @@ function ArticleDetail({ article }) {
             </noscript>
             <br />
             <p className={styles.publishDate}>{article.date}</p>
+            <br />
             <a
               className={styles.btnGrad}
               href={`../../${article.created_by.username}`}
