@@ -2,7 +2,7 @@ import { Container, Row } from "react-bootstrap";
 import Col from "react-bootstrap/Col";
 import styles from "./footer.module.css";
 import Image from "react-bootstrap/Image";
-import { Instagram, Twitter, Youtube, Discord, Mail } from "./icons";
+import {Twitter, Youtube, Discord, Mail } from "./icons";
 import Link from "next/link";
 function Footer() {
   return (

@@ -9,6 +9,18 @@ import styles from "./slug.module.css";
 import Markdown from "markdown-to-jsx";
 
 function ArticleDetail({ article }) {
+  var disqus_config = function () {
+    this.page.url = PAGE_URL;
+    this.page.identifier = PAGE_IDENTIFIER;
+  };
+
+  (function () {
+    var d = document,
+      s = d.createElement("script");
+    s.src = "https://betik.disqus.com/embed.js";
+    s.setAttribute("data-timestamp", +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
   return (
     <Layout>
       <Head>
@@ -47,8 +59,18 @@ function ArticleDetail({ article }) {
         <Row className={styles.content}>
           <Col lg={9}>
             <Markdown className={styles.text}>{article.content}</Markdown>
-            <p className={styles.publishDate}>{article.date}</p>
+            
 
+            <div id="disqus_thread"></div>
+
+            <noscript>
+              Please enable JavaScript to view the{" "}
+              <a href="https://disqus.com/?ref_noscript">
+                comments powered by Disqus.
+              </a>
+            </noscript>
+            <br />
+            <p className={styles.publishDate}>{article.date}</p>
             <a
               className={styles.btnGrad}
               href={`../../${article.created_by.username}`}
@@ -63,7 +85,6 @@ function ArticleDetail({ article }) {
     </Layout>
   );
 }
-
 
 export async function getServerSideProps({ params }) {
   const id = params.slug.split("-").slice(-1)[0];

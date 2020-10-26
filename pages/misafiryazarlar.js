@@ -11,12 +11,12 @@ import styles from "./username.module.css";
 function HomePage({ guestarticles }) {
   return (
     <Layout>
-    <Head>
+      <Head>
         <title>Misafir Yazarlar</title>
       </Head>
 
       <Container className="my-5">
-      <Row className={styles.contentCenter}>
+        <Row className={styles.contentCenter}>
           <h1 className={styles.titleCenter}>Sizden Gelenler</h1>
         </Row>
         <Row>
@@ -24,7 +24,9 @@ function HomePage({ guestarticles }) {
             <Col sm={3} md={6} lg={3} className="my-2">
               <Link
                 href="/guestarticle/[guestslug]"
-                as={`/guestarticle/${slug(guestarticle.guesttitle)}-${guestarticle.id}`}
+                as={`/guestarticle/${slug(guestarticle.guesttitle)}-${
+                  guestarticle.id
+                }`}
               >
                 <Card key={guestarticle.id} className={styles.cardGeneral}>
                   <Card.Img
@@ -37,12 +39,12 @@ function HomePage({ guestarticles }) {
                       {guestarticle.guesttitle}
                     </h2>
                     <br />
-                    <h5>
-                      {guestarticle.guestname}
-                    </h5>
+                    <h5>{guestarticle.guestname}</h5>
                   </Card.Body>
                   <Card.Footer>
-                    <small className="text-muted"><i class="far fa-clock"></i> {guestarticle.guestdate}</small>
+                    <small className="text-muted">
+                      <i class="far fa-clock"></i> {guestarticle.guestdate}
+                    </small>
                   </Card.Footer>
                 </Card>
               </Link>
@@ -55,12 +57,14 @@ function HomePage({ guestarticles }) {
 }
 
 export async function getServerSideProps() {
-  const data = await unfetch("https://betikblog.herokuapp.com/guestarticles?_sort=created_at:DESC");
+  const data = await unfetch(
+    "https://betikblog.herokuapp.com/guestarticles?_sort=created_at:DESC"
+  );
   const guestarticles = await data.json();
 
   return {
     props: {
-        guestarticles,
+      guestarticles,
     },
   };
 }
