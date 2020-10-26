@@ -1,6 +1,7 @@
 import { Container, Row } from "react-bootstrap";
 import Col from "react-bootstrap/Col";
 import styles from "./footer.module.css";
+import Image from "react-bootstrap/Image";
 import { Instagram, Twitter, Youtube, Discord, Mail } from "./icons";
 import Link from "next/link";
 function Footer() {
@@ -19,7 +20,7 @@ function Footer() {
             <Col lg xs={4}>
               <Link href="https://instagram.com/betikblog?igshid=1g57mq6qwvfip">
                 <a target="_blank">
-                  <Instagram className={styles.icon} />
+                <Image className={styles.icon} src="/instagram.png" fluid />
                 </a>
               </Link>
             </Col>
