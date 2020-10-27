@@ -14,13 +14,14 @@ function ArticleDetail({ article }) {
     this.page.identifier = PAGE_IDENTIFIER;
   };
 
-  (function () {
+  React.useEffect(() => {
     var d = document,
-    s = d.createElement("script");
+      s = d.createElement("script");
     s.src = "https://betik.disqus.com/embed.js";
     s.setAttribute("data-timestamp", +new Date());
     (d.head || d.body).appendChild(s);
-  })();
+  }, []);
+
   return (
     <Layout>
       <Head>
@@ -58,19 +59,12 @@ function ArticleDetail({ article }) {
 
         <Row className={styles.content}>
           <Col lg={9}>
-            <Markdown className={styles.text}>{article.content}</Markdown>
+            <Markdown className={styles.text}
+          
+            >{article.content}</Markdown>
 
             <div id="disqus_thread"></div>
 
-            <noscript>
-              Please enable JavaScript to view the{" "}
-              <a href="https://disqus.com/?ref_noscript">
-                comments powered by Disqus.
-              </a>
-            </noscript>
-            <br />
-            <p className={styles.publishDate}>{article.date}</p>
-            <br />
             <a
               className={styles.btnGrad}
               href={`../../${article.created_by.username}`}
