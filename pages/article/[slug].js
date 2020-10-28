@@ -59,9 +59,7 @@ function ArticleDetail({ article }) {
 
         <Row className={styles.content}>
           <Col lg={9}>
-            <Markdown className={styles.text}
-          
-            >{article.content}</Markdown>
+            <Markdown className={styles.text}>{article.content}</Markdown>
 
             <div id="disqus_thread"></div>
 
