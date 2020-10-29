@@ -62,7 +62,7 @@ function ArticleDetail({ article }) {
             <Markdown className={styles.text}>{article.content}</Markdown>
 
             <div id="disqus_thread"></div>
-
+            <br/>
             <a
               className={styles.btnGrad}
               href={`../../${article.created_by.username}`}
