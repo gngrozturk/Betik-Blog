@@ -247,7 +247,7 @@ function HomePage({ articles, items, guestarticles }) {
               </Col>
 
               <Col md={6} lg={3} className={styles.teamCol}>
-              <Image
+                <Image
                   className={styles.personImg}
                   src="/Kubra.png"
                   alt="Kübra Nur Bektaş"
@@ -269,7 +269,7 @@ function HomePage({ articles, items, guestarticles }) {
                 </div>
               </Col>
               <Col md={6} lg={3} className={styles.teamCol}>
-              <Image
+                <Image
                   className={styles.personImg}
                   src="/Gungor.png"
                   alt="Güngör Öztürk"
@@ -291,7 +291,7 @@ function HomePage({ articles, items, guestarticles }) {
                 </div>
               </Col>
               <Col md={6} lg={3} className={styles.teamCol}>
-              <Image
+                <Image
                   className={styles.personImg}
                   src="/Furkan.png"
                   alt="Furkan Öztekin"
@@ -312,7 +312,7 @@ function HomePage({ articles, items, guestarticles }) {
                 </div>
               </Col>
               <Col md={6} lg={3}>
-              <Image
+                <Image
                   className={styles.personImg}
                   src="/Salih.png"
                   alt="Salih Akın"

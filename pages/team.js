@@ -223,10 +223,10 @@ function Team() {
                         />
                       </Row>
                       <Row className={styles.mediaRow}>
-                        <a href="https://instagram.com/kubraabektas?igshid=x95apt5mfox5">
+                        <a href="https://instagram.com/melih.eksioglu?igshid=1fkribkvst9id">
                           <Instagram className={styles.icon} />
                         </a>
-                        <a href="https://twitter.com/kubraabektass?s=08">
+                        <a href="https://twitter.com/meliheksioglu?s=08">
                           <Twitter className={styles.icon} />
                         </a>
                       </Row>
@@ -297,7 +297,7 @@ function Team() {
                         <a href="https://instagram.com/salih.kn?igshid=143kt067e4q6j">
                           <Instagram className={styles.icon} />
                         </a>
-                        <a href="https://twitter.com/ozturkkgungorr?s=08">
+                        <a href="https://twitter.com/salih_kn">
                           <Twitter className={styles.icon} />
                         </a>
                       </Row>
