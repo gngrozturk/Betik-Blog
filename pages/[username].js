@@ -3,7 +3,7 @@ import Link from "next/link";
 import Layout from "../components/layout";
 import unfetch from "isomorphic-unfetch";
 import slug from "slug";
-import qs from "qs"
+import qs from "qs";
 import { Container, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import styles from "./username.module.css";
@@ -11,7 +11,7 @@ import Col from "react-bootstrap/Col";
 
 function ArticleDetail({ articles }) {
   return (
-    <Layout>
+    <Layout lang="tr">
       <Head>
         {articles.map((article) => (
           <title>
@@ -20,6 +20,13 @@ function ArticleDetail({ articles }) {
         ))}
       </Head>
       <Container className="my-5">
+        <Row className={styles.contentCenter}>
+          {articles.slice(0, 1).map((article) => (
+            <h1 className={styles.titleCenter}>
+              {article.created_by.firstname + " " + article.created_by.lastname}
+            </h1>
+          ))}
+        </Row>
         <Row>
           {articles.map((article) => (
             <Col sm={3} md={6} lg={3} className="my-2">
@@ -34,9 +41,7 @@ function ArticleDetail({ articles }) {
                     src={article.banner.name}
                   />
                   <Card.Body>
-                    <h2 className={styles.cardTitle}>
-                      {article.title}
-                    </h2>
+                    <h2 className={styles.cardTitle}>{article.title}</h2>
                     <br />
                     <h5>
                       {article.created_by.firstname +
@@ -45,7 +50,9 @@ function ArticleDetail({ articles }) {
                     </h5>
                   </Card.Body>
                   <Card.Footer>
-                    <small className="text-muted"><i class="far fa-clock"></i> {article.date}</small>
+                    <small className="text-muted">
+                      <i class="far fa-clock"></i> {article.date}
+                    </small>
                   </Card.Footer>
                 </Card>
               </Link>
@@ -60,18 +67,18 @@ function ArticleDetail({ articles }) {
 export async function getServerSideProps({ params }) {
   const username = params.username;
   const query = qs.stringify({
-    _where: [{"created_by.username": username}],
-    _sort: 'created_at:DESC'
-  })
+    _where: [{ "created_by.username": username }],
+    _sort: "created_at:DESC",
+  });
   const data = await unfetch(
     `https://betikblog.herokuapp.com/articles?${query}`
   );
-  
+
   const articles = await data.json();
 
   return {
     props: {
-      articles
+      articles,
     },
   };
 }

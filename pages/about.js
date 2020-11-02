@@ -9,7 +9,7 @@ import Link from "next/link";
 
 function About() {
   return (
-    <Layout>
+    <Layout lang="tr">
       <Head>
         <title>Hakkımızda</title>
       </Head>

@@ -9,7 +9,7 @@ import { Instagram, Twitter } from "../components/icons";
 
 function Team() {
   return (
-    <Layout>
+    <Layout lang="tr">
       <Head>
         <title>Takımımız</title>
       </Head>
@@ -22,7 +22,12 @@ function Team() {
                   <Row>
                     <Col lg={3}>
                       <Row>
-                        <Image src="/Gungor.png" roundedCircle fluid />
+                        <Image
+                          src="/Gungor.png"
+                          roundedCircle
+                          fluid
+                          alt="Güngör Öztürk"
+                        />
                       </Row>
                       <Row className={styles.mediaRow}>
                         <a href="https://www.instagram.com/ozturkk.gungor/">
@@ -83,7 +88,12 @@ function Team() {
                   <Row>
                     <Col lg={3}>
                       <Row>
-                        <Image src="/Furkan.png" roundedCircle fluid />
+                        <Image
+                          src="/Furkan.png"
+                          roundedCircle
+                          fluid
+                          alt="Furkan Öztekin"
+                        />
                       </Row>
 
                       <Row className={styles.mediaRow}>
@@ -139,7 +149,12 @@ function Team() {
                   <Row>
                     <Col lg={3}>
                       <Row>
-                        <Image src="/Kubra.png" roundedCircle fluid />
+                        <Image
+                          src="/Kubra.png"
+                          roundedCircle
+                          fluid
+                          alt="Kübra Nur Bektaş"
+                        />
                       </Row>
 
                       <Row className={styles.mediaRow}>
@@ -200,7 +215,12 @@ function Team() {
                   <Row>
                     <Col lg={3}>
                       <Row>
-                        <Image src="/Melih.png" roundedCircle fluid />
+                        <Image
+                          src="/Melih.png"
+                          roundedCircle
+                          fluid
+                          alt="Melih Can Ekşioğlu"
+                        />
                       </Row>
                       <Row className={styles.mediaRow}>
                         <a href="https://instagram.com/kubraabektas?igshid=x95apt5mfox5">
@@ -226,7 +246,7 @@ function Team() {
                             bir insan haline gelmeye çabalayan biri…Adım ise
                             Melih Can Ekşioğlu. Şu anda Ankara Üniversitesi Tıp
                             Fakültesi 3. sınıf öğrencisiyim, bu değerli
-                            platformda nörofizyoloji alanında öğrendiklerimi
+                            platformda Nöropsikiyatri alanında öğrendiklerimi
                             kendi süzgecimden geçirdikten sonra sizlerle
                             paylaşacağım. Sizlerle öğrenecek, sizlerden yeni
                             şeyler öğreneceğim. Hayallerimin ilk adımını attığım
@@ -266,7 +286,12 @@ function Team() {
                   <Row>
                     <Col lg={3}>
                       <Row>
-                        <Image src="/Salih.png" roundedCircle fluid />
+                        <Image
+                          src="/Salih.png"
+                          roundedCircle
+                          fluid
+                          alt="Salih Akın"
+                        />
                       </Row>
                       <Row className={styles.mediaRow}>
                         <a href="https://instagram.com/salih.kn?igshid=143kt067e4q6j">

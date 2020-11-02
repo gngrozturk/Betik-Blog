@@ -13,7 +13,7 @@ import Typewriter from "typewriter-effect";
 
 function HomePage({ articles, items, guestarticles }) {
   return (
-    <Layout>
+    <Layout lang="tr">
       <div className={styles.typewritter}>
         <Container>
           <div className={styles.text}>
@@ -227,6 +227,7 @@ function HomePage({ articles, items, guestarticles }) {
                 <Image
                   className={styles.personImg}
                   src="/Melih.png"
+                  alt="Melih Can Ekşioğlu"
                   roundedCircle
                   fluid
                 />
@@ -249,6 +250,7 @@ function HomePage({ articles, items, guestarticles }) {
               <Image
                   className={styles.personImg}
                   src="/Kubra.png"
+                  alt="Kübra Nur Bektaş"
                   roundedCircle
                   fluid
                 />
@@ -270,6 +272,7 @@ function HomePage({ articles, items, guestarticles }) {
               <Image
                   className={styles.personImg}
                   src="/Gungor.png"
+                  alt="Güngör Öztürk"
                   roundedCircle
                   fluid
                 />
@@ -291,6 +294,7 @@ function HomePage({ articles, items, guestarticles }) {
               <Image
                   className={styles.personImg}
                   src="/Furkan.png"
+                  alt="Furkan Öztekin"
                   roundedCircle
                   fluid
                 />
@@ -311,6 +315,7 @@ function HomePage({ articles, items, guestarticles }) {
               <Image
                   className={styles.personImg}
                   src="/Salih.png"
+                  alt="Salih Akın"
                   roundedCircle
                   fluid
                 />

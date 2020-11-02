@@ -10,7 +10,7 @@ import styles from "./username.module.css";
 
 function HomePage({ guestarticles }) {
   return (
-    <Layout>
+    <Layout lang="tr">
       <Head>
         <title>Misafir Yazarlar</title>
       </Head>
