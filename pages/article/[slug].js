@@ -7,6 +7,7 @@ import Image from "react-bootstrap/Image";
 import Col from "react-bootstrap/Col";
 import styles from "./slug.module.css";
 import Markdown from "markdown-to-jsx";
+import Moment from "moment";
 
 function ArticleDetail({ article }) {
   var disqus_config = function () {
@@ -22,6 +23,7 @@ function ArticleDetail({ article }) {
     (d.head || d.body).appendChild(s);
   }, []);
 
+  
   return (
     <Layout>
       <Head>
@@ -41,19 +43,30 @@ function ArticleDetail({ article }) {
             <hr className={styles.line} />
 
             <Image fluid src={article.banner.name} width="100%" />
+            <Col>
+              <Row className={styles.articleIntro}>
+                <h5>
+                  {article.created_by.firstname +
+                    " " +
+                    article.created_by.lastname +
+                    " | "}
+                    {Moment(article.date).format('DD.MM.YYYY')} 
+                </h5>
 
-            <div className={styles.share}>
-              <a
-                href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-                class="twitter-share-button"
-                data-show-count="false"
-                data-size="large"
-                data-via="betikblog"
-                data-hashtags={article.keywords}
-              >
-                Tweet
-              </a>
-            </div>
+                <div className={styles.share}>
+                  <a
+                    href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+                    class="twitter-share-button"
+                    data-show-count="false"
+                    data-size="large"
+                    data-via="betikblog"
+                    data-hashtags={article.keywords}
+                  >
+                    Tweet
+                  </a>
+                </div>
+              </Row>
+            </Col>
           </Col>
         </Row>
 
@@ -62,7 +75,7 @@ function ArticleDetail({ article }) {
             <Markdown className={styles.text}>{article.content}</Markdown>
 
             <div id="disqus_thread"></div>
-            <br/>
+            <br />
             <a
               className={styles.btnGrad}
               href={`../../${article.created_by.username}`}

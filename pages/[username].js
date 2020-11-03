@@ -8,6 +8,7 @@ import { Container, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import styles from "./username.module.css";
 import Col from "react-bootstrap/Col";
+import Moment from "moment";
 
 function ArticleDetail({ articles }) {
   return (
@@ -51,7 +52,7 @@ function ArticleDetail({ articles }) {
                   </Card.Body>
                   <Card.Footer>
                     <small className="text-muted">
-                      <i class="far fa-clock"></i> {article.date}
+                      <i class="far fa-clock"></i> {Moment(article.date).format('DD.MM.YYYY')} 
                     </small>
                   </Card.Footer>
                 </Card>

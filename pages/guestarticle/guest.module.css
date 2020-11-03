@@ -5,7 +5,6 @@
 
 .share{
   text-align: right;
-  margin-top: 1em;
 }
 
 .text {
@@ -21,10 +20,14 @@
   justify-content: center;
 }
 
+.articleIntro{
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
 .publishDate {
   text-align: right;
   font-family: "Roboto", sans-serif;
-  font-size: 1.1rem;
 }
 
 .line {
@@ -32,3 +35,7 @@
   border: 0;
   height: 1px;
 }
+
+.p a{
+  word-wrap: break-word;
+ }

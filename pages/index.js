@@ -10,6 +10,7 @@ import Col from "react-bootstrap/Col";
 import styles from "./index.module.css";
 import { Spotify, Instagram, Twitter, Youtube } from "../components/icons";
 import Typewriter from "typewriter-effect";
+import Moment from "moment";
 
 function HomePage({ articles, items, guestarticles }) {
   return (
@@ -106,7 +107,7 @@ function HomePage({ articles, items, guestarticles }) {
                   </Card.Body>
                   <Card.Footer>
                     <small className="text-muted">
-                      <i class="far fa-clock"></i> {article.date}
+                      <i class="far fa-clock"></i> {Moment(article.date).format('DD.MM.YYYY')} 
                     </small>
                   </Card.Footer>
                 </Card>
@@ -147,7 +148,7 @@ function HomePage({ articles, items, guestarticles }) {
                     </Card.Body>
                     <Card.Footer>
                       <small className="text-muted">
-                        <i class="far fa-clock"></i> {guestarticle.guestdate}
+                        <i class="far fa-clock"></i> {Moment(guestarticle.guestdate).format('DD.MM.YYYY')} 
                       </small>
                     </Card.Footer>
                   </Card>

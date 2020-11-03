@@ -7,6 +7,7 @@ import { Container, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import styles from "./username.module.css";
+import Moment from "moment";
 
 function HomePage({ guestarticles }) {
   return (
@@ -43,7 +44,7 @@ function HomePage({ guestarticles }) {
                   </Card.Body>
                   <Card.Footer>
                     <small className="text-muted">
-                      <i class="far fa-clock"></i> {guestarticle.guestdate}
+                      <i class="far fa-clock"></i> {Moment(guestarticle.guestdate).format('DD.MM.YYYY')} 
                     </small>
                   </Card.Footer>
                 </Card>
