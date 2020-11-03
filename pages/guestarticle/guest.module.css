@@ -1,6 +1,6 @@
 .content {
   justify-content: center;
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 
 .share{
@@ -36,6 +36,16 @@
   height: 1px;
 }
 
-.p a{
+.text a{
   word-wrap: break-word;
  }
+
+ 
+@media screen and (max-width: 767px) {
+  .articleIntro {
+    flex-direction: column;
+  }
+  .share{
+    text-align: left;
+  }
+}

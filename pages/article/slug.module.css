@@ -5,16 +5,17 @@
 }
 
 .titles {
- font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
-.text img{
+.text img {
   width: 100%;
 }
 
-.articleIntro{
+.articleIntro {
   justify-content: space-between;
   margin-top: 1em;
+ 
 }
 
 .line {
@@ -23,13 +24,13 @@
   height: 1px;
 }
 
-.share{
+.share {
   text-align: right;
 }
 
 .content {
   justify-content: center;
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 
 .abstract {
@@ -65,12 +66,20 @@
   color: white;
 }
 
-
 .btnAlign {
   justify-content: end;
   margin-right: 1em;
 }
 
-.text a{
+.text a {
   word-wrap: break-word;
- }
+}
+
+@media screen and (max-width: 767px) {
+  .articleIntro {
+    flex-direction: column;
+  }
+  .share{
+    text-align: left;
+  }
+}

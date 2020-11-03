@@ -34,7 +34,7 @@ function ArticleDetail({ guestarticle }) {
           charset="utf-8"
         ></script>
       </Head>
-      <Container className="my-5">
+      <Container className="my-4">
         <Row className={styles.abstract}>
           <Col lg={10}>
             <h1 className={styles.titles}>{guestarticle.guesttitle}</h1>
