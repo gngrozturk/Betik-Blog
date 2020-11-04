@@ -20,9 +20,3 @@
   font-size: 25px;
 }
 
-@media screen and (min-height: 1081px) {
-
-  .footer {
-    margin-top: 160px;
-  }
-}
