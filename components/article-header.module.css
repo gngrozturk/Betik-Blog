@@ -1,0 +1,28 @@
+.articleIntro {
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.share {
+  text-align: right;
+  align-self: center;
+}
+
+.share * {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.divider {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .articleIntro {
+    flex-direction: column;
+  }
+  .share {
+    align-self: flex-start;
+  }
+}
