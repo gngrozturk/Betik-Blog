@@ -38,7 +38,7 @@ export default function ArticleHeader({
       <Row className={styles.articleIntro}>
         <div>
           <h5>
-            {firstname} <strong>{lastname}</strong>
+            {firstname + " " +lastname}
           </h5>
           <p className="text-muted">
             {Moment(date).set({ hour: 17 }).fromNow()} •{" "}
