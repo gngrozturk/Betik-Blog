@@ -6,8 +6,8 @@ import {Twitter, Youtube, Discord, Mail } from "./icons";
 import Link from "next/link";
 function Footer() {
   return (
-    <div>
-      <footer>
+    <div className={styles.footer}>
+      <footer >
         <Container fluid>
           <Row className={styles.footerInfo}>
             <Col lg xs={4}>
