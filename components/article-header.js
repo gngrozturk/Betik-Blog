@@ -37,9 +37,7 @@ export default function ArticleHeader({
     <Col>
       <Row className={styles.articleIntro}>
         <div>
-          <h5>
-            {firstname + " " +lastname}
-          </h5>
+          <h5>{firstname + " " + lastname}</h5>
           <p className="text-muted">
             {Moment(date).set({ hour: 17 }).fromNow()} •{" "}
             {`${Math.ceil(ReadingTime(content).minutes)} dakika okunma`}
@@ -65,7 +63,9 @@ export default function ArticleHeader({
           />
         </div>
       </Row>
-      <hr className={styles.divider} />
+      <Row>
+        <hr className={styles.divider} />
+      </Row>
     </Col>
   );
 }
