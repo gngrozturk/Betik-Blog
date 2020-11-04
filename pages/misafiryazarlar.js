@@ -16,7 +16,7 @@ function HomePage({ guestarticles }) {
         <title>Misafir Yazarlar</title>
       </Head>
 
-      <Container className="my-5">
+      <Container className={styles.pageGeneral}>
         <Row className={styles.contentCenter}>
           <h1 className={styles.titleCenter}>Sizden Gelenler</h1>
         </Row>

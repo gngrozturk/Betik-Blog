@@ -1,3 +1,6 @@
+.pageGeneral{
+  min-height: 85vh;
+}
 .cardGeneral {
   text-align: center;
   box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.5);
