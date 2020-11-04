@@ -1,15 +1,17 @@
 import Head from "next/head";
 import Layout from "../../components/layout";
 import unfetch from "isomorphic-unfetch";
-import slug from "slug";
 import { Container, Row } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
 import Col from "react-bootstrap/Col";
 import styles from "./slug.module.css";
 import Markdown from "markdown-to-jsx";
-import Moment from "moment";
+import ArticleHeader from "../../components/article-header";
 
 function ArticleDetail({ article }) {
+  const [copyText, setCopyText] = React.useState("Kopyala");
+  const [href, setHref] = React.useState("");
+
   var disqus_config = function () {
     this.page.url = PAGE_URL;
     this.page.identifier = PAGE_IDENTIFIER;
@@ -21,9 +23,9 @@ function ArticleDetail({ article }) {
     s.src = "https://betik.disqus.com/embed.js";
     s.setAttribute("data-timestamp", +new Date());
     (d.head || d.body).appendChild(s);
+    setHref(window.location.href);
   }, []);
 
-  
   return (
     <Layout>
       <Head>
@@ -43,30 +45,11 @@ function ArticleDetail({ article }) {
             <hr className={styles.line} />
 
             <Image fluid src={article.banner.name} width="100%" />
-            <Col>
-              <Row className={styles.articleIntro}>
-                <h5>
-                  {article.created_by.firstname +
-                    " " +
-                    article.created_by.lastname +
-                    " | "}
-                    {Moment(article.date).format('DD.MM.YYYY')} 
-                </h5>
-
-                <div className={styles.share}>
-                  <a
-                    href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-                    class="twitter-share-button"
-                    data-show-count="false"
-                    data-size="large"
-                    data-via="betikblog"
-                    data-hashtags={article.keywords}
-                  >
-                    Tweet
-                  </a>
-                </div>
-              </Row>
-            </Col>
+            <ArticleHeader
+              {...article}
+              firstname={article.created_by.firstname}
+              lastname={article.created_by.lastname}
+            />
           </Col>
         </Row>
 

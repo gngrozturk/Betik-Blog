@@ -107,7 +107,8 @@ function HomePage({ articles, items, guestarticles }) {
                   </Card.Body>
                   <Card.Footer>
                     <small className="text-muted">
-                      <i class="far fa-clock"></i> {Moment(article.date).format('DD.MM.YYYY')} 
+                      <i class="far fa-clock"></i>{" "}
+                      {Moment(article.date).format("DD.MM.YYYY")}
                     </small>
                   </Card.Footer>
                 </Card>
@@ -148,7 +149,8 @@ function HomePage({ articles, items, guestarticles }) {
                     </Card.Body>
                     <Card.Footer>
                       <small className="text-muted">
-                        <i class="far fa-clock"></i> {Moment(guestarticle.guestdate).format('DD.MM.YYYY')} 
+                        <i class="far fa-clock"></i>{" "}
+                        {Moment(guestarticle.guestdate).format("DD.MM.YYYY")}
                       </small>
                     </Card.Footer>
                   </Card>
@@ -377,11 +379,10 @@ export async function getServerSideProps() {
     "https://betikblog.herokuapp.com/guestarticles?_sort=created_at:DESC"
   );
   const guestarticles = await dataGuest.json();
-
   return {
     props: {
       articles,
-      items: videoJson.items,
+      items: videoJson.items ? videoJson.items : [],
       guestarticles,
     },
   };
