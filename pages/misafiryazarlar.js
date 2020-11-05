@@ -14,6 +14,10 @@ function HomePage({ guestarticles }) {
     <Layout>
       <Head>
         <title>Misafir Yazarlar</title>
+        <meta
+          name="description"
+          content="Yazdığınız yazıları betikblog@gmail.com e-posta adresine gönderdiğiniz takdirde editörlerimizce incelenip sizlere gereken geri dönüşler sağlandıktan sonra yazınızın sizin de onayladığınız son halini www.betikblog.com adresinde yayınlıyoruz !"
+        />
       </Head>
 
       <Container className={styles.pageGeneral}>
@@ -44,7 +48,8 @@ function HomePage({ guestarticles }) {
                   </Card.Body>
                   <Card.Footer>
                     <small className="text-muted">
-                      <i class="far fa-clock"></i> {Moment(guestarticle.guestdate).format('DD.MM.YYYY')} 
+                      <i class="far fa-clock"></i>{" "}
+                      {Moment(guestarticle.guestdate).format("DD.MM.YYYY")}
                     </small>
                   </Card.Footer>
                 </Card>
