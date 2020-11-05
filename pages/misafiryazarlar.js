@@ -11,7 +11,7 @@ import Moment from "moment";
 
 function HomePage({ guestarticles }) {
   return (
-    <Layout lang="tr">
+    <Layout>
       <Head>
         <title>Misafir Yazarlar</title>
       </Head>

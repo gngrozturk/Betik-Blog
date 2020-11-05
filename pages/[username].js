@@ -12,7 +12,7 @@ import Moment from "moment";
 
 function ArticleDetail({ articles }) {
   return (
-    <Layout lang="tr">
+    <Layout >
       <Head>
         {articles.map((article) => (
           <title>

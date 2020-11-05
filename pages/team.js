@@ -9,7 +9,7 @@ import { Instagram, Twitter } from "../components/icons";
 
 function Team() {
   return (
-    <Layout lang="tr">
+    <Layout>
       <Head>
         <title>Takımımız</title>
       </Head>

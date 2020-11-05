@@ -14,7 +14,7 @@ import Moment from "moment";
 
 function HomePage({ articles, items, guestarticles }) {
   return (
-    <Layout lang="tr">
+    <Layout>
       <div className={styles.typewritter}>
         <Container>
           <div className={styles.text}>

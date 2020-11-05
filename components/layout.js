@@ -9,6 +9,7 @@ function Layout({ children }) {
         <title>Ana Sayfa</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <meta
           name="keywords"
           content="Psikoloji,Yazılım,Nöroloji,Teknoloji,Uzay,Tarih"
