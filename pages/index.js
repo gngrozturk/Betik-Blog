@@ -177,7 +177,7 @@ function HomePage({ articles, items, guestarticles }) {
                   Nasıl Misafir Yazar Olunur ?
                 </h3>
                 <br />
-                <p className={styles.announceText}>
+                <p lang="tr" className={styles.announceText}>
                   Yazdığınız yazıları betikblog@gmail.com e-posta adresine
                   gönderdiğiniz takdirde editörlerimizce incelenip sizlere
                   gereken geri dönüşler sağlandıktan sonra yazınızın sizin de
