@@ -95,6 +95,7 @@ function HomePage({ articles, items, guestarticles }) {
                     className={styles.cardImg}
                     variant="top"
                     src={article.banner.name}
+                    alt={article.title}
                   />
                   <Card.Body>
                     <h2 className={styles.cardTitle}>{article.title}</h2>
@@ -139,6 +140,7 @@ function HomePage({ articles, items, guestarticles }) {
                       className={styles.cardImg}
                       variant="top"
                       src={guestarticle.guestbanner.name}
+                      alt={guestarticle.guesttitle}
                     />
                     <Card.Body>
                       <h2 className={styles.cardTitle}>

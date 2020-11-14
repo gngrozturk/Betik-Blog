@@ -40,6 +40,7 @@ function ArticleDetail({ articles }) {
                     className={styles.cardImg}
                     variant="top"
                     src={article.banner.name}
+                    alt={article.title}
                   />
                   <Card.Body>
                     <h2 className={styles.cardTitle}>{article.title}</h2>

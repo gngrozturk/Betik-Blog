@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002Fmisafiryazarlar","\u002F","\u002Fguestarticle\u002F[guestslug]","\u002Farticle\u002F[slug]","\u002F[username]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
