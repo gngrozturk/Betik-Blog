@@ -12,7 +12,7 @@ import Moment from "moment";
 
 function ArticleDetail({ articles }) {
   return (
-    <Layout >
+    <Layout>
       <Head>
         {articles.map((article) => (
           <title>
@@ -52,7 +52,8 @@ function ArticleDetail({ articles }) {
                   </Card.Body>
                   <Card.Footer>
                     <small className="text-muted">
-                      <i class="far fa-clock"></i> {Moment(article.date).format('DD.MM.YYYY')} 
+                      <i class="far fa-clock"></i>{" "}
+                      {Moment(article.date).format("DD.MM.YYYY")}
                     </small>
                   </Card.Footer>
                 </Card>
@@ -64,8 +65,21 @@ function ArticleDetail({ articles }) {
     </Layout>
   );
 }
+export async function getStaticPaths() {
+  const data = await unfetch(
+    "https://betikblog.herokuapp.com/articles?_sort=created_at:DESC"
+  );
+  const articles = await data.json();
 
-export async function getServerSideProps({ params }) {
+  return {
+    paths: articles.map((article) => {
+      return { params: { username: `${article.created_by.username}` } };
+    }),
+    fallback: false,
+  };
+}
+
+export async function getStaticProps({ params }) {
   const username = params.username;
   const query = qs.stringify({
     _where: [{ "created_by.username": username }],

@@ -7,6 +7,7 @@ import Col from "react-bootstrap/Col";
 import styles from "./slug.module.css";
 import Markdown from "markdown-to-jsx";
 import ArticleHeader from "../../components/article-header";
+import slug from "slug";
 
 function ArticleDetail({ article }) {
   const [copyText, setCopyText] = React.useState("Kopyala");
@@ -74,7 +75,21 @@ function ArticleDetail({ article }) {
   );
 }
 
-export async function getServerSideProps({ params }) {
+export async function getStaticPaths() {
+  const data = await unfetch(
+    "https://betikblog.herokuapp.com/articles?_sort=created_at:DESC"
+  );
+  const articles = await data.json();
+
+  return {
+    paths: articles.map((article) => {
+      return { params: { slug: `${slug(article.title)}-${article.id}` } };
+    }),
+    fallback: false,
+  };
+}
+
+export async function getStaticProps({ params }) {
   const id = params.slug.split("-").slice(-1)[0];
   const data = await unfetch("https://betikblog.herokuapp.com/articles/" + id);
 

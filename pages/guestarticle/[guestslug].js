@@ -41,13 +41,13 @@ function ArticleDetail({ guestarticle }) {
             <h1 className={styles.titles}>{guestarticle.guesttitle}</h1>
             <hr className={styles.line} />
             <Image fluid src={guestarticle.guestbanner.name} width="100%" />
-            <ArticleHeader 
-                title={guestarticle.guesttitle}
-                firstname={guestarticle.guestname.split(" ")[0]}
-                lastname={guestarticle.guestname.split(" ")[1]}
-                content={guestarticle.guestcontent}
-                keywords={guestarticle.guestkeywords}
-                date={guestarticle.guestdate}
+            <ArticleHeader
+              title={guestarticle.guesttitle}
+              firstname={guestarticle.guestname.split(" ")[0]}
+              lastname={guestarticle.guestname.split(" ")[1]}
+              content={guestarticle.guestcontent}
+              keywords={guestarticle.guestkeywords}
+              date={guestarticle.guestdate}
             />
           </Col>
         </Row>
@@ -75,13 +75,28 @@ function ArticleDetail({ guestarticle }) {
   );
 }
 
-export async function getServerSideProps({ params }) {
-  const id = params.guestslug.split("-").slice(-1)[0];
+export async function getStaticPaths() {
   const data = await unfetch(
+    "https://betikblog.herokuapp.com/guestarticles?_sort=created_at:DESC"
+  );
+  const guestarticles = await data.json();
+  return {
+    paths: guestarticles.map((guestarticle) => {
+      return {
+        params: {guestslug: `${slug(guestarticle.guesttitle)}-${guestarticle.id}`},
+      };
+    }),
+    fallback: false,
+  };
+}
+
+export async function getStaticProps({ params }) {
+  const id = params.guestslug.split("-").slice(-1)[0];
+  const dataGuest = await unfetch(
     "https://betikblog.herokuapp.com/guestarticles/" + id
   );
 
-  const guestarticle = await data.json();
+  const guestarticle = await dataGuest.json();
 
   return {
     props: {
