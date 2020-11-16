@@ -366,9 +366,7 @@ function HomePage({ articles, items, guestarticles }) {
   );
 }
 
-
 export async function getStaticProps() {
-
   const data = await unfetch(
     "https://betikblog.herokuapp.com/articles?_sort=created_at:DESC"
   );
@@ -390,7 +388,6 @@ export async function getStaticProps() {
       guestarticles,
     },
   };
-
 }
 
 export default HomePage;
