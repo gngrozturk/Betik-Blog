@@ -16,6 +16,10 @@ function Team() {
       <main className={styles.teamGeneral}>
         <Container className="my-5">
           <Row className={styles.rowCenter}>
+            <h1 className={styles.title}>Takımımız</h1>
+          </Row>
+
+          <Row className={styles.rowCenter}>
             <Col lg={10}>
               <Card className={styles.personCard}>
                 <Card.Body>
@@ -42,7 +46,7 @@ function Team() {
                     <Col lg={9}>
                       <Row>
                         <Col>
-                          <h1 className={styles.name}>Güngör Öztürk</h1>
+                          <h4 className={styles.name}>Güngör Öztürk</h4>
                           <p>
                             Merhaba, ben Güngör Öztürk. Konya Teknik
                             Üniversitesi Bilgisayar Mühendisliği Bölümü 3.sınıf

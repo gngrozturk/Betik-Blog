@@ -20,7 +20,7 @@ function Footer() {
             <Col lg xs={4}>
               <Link href="https://instagram.com/betikblog?igshid=1g57mq6qwvfip">
                 <a target="_blank">
-                <Image className={styles.icon} src="/instagram.png" fluid />
+                <Image className={styles.icon} src="/instagram.png" alt="instagram" fluid />
                 </a>
               </Link>
             </Col>

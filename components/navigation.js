@@ -9,7 +9,7 @@ function Navigation() {
     <div>
       <Navbar className={styles.bgColor} expand="lg" sticky="top">
         <Navbar.Brand href="/">
-          <Logo />
+          <Logo/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
