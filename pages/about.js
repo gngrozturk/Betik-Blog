@@ -12,6 +12,10 @@ function About() {
     <Layout>
       <Head>
         <title>Hakkımızda</title>
+        <meta
+          name="description"
+          content="Betik'in bize yüklediği misyon bize emanet edilen zamanı daha değerli kılmaya çabalamak ve yaşadığımız bu kutlu coğrafyada umutsuzluğu inancımızla, hayallerimize çizilmek istenen sınırları yüzyılardır yüreklerimizde taşıdığımız, bitmek bilmeyen hürriyet aşkımızla yok etmek ve yeni fikirler üretmek için harekete geçmektir."
+        />
       </Head>
       <main className={styles.aboutGeneral}>
         <Container className="my-5">

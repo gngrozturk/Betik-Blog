@@ -12,6 +12,10 @@ function Team() {
     <Layout>
       <Head>
         <title>Takımımız</title>
+        <meta
+          name="description"
+          content="Bizler sadece kadim tarihimizden ve inancımızdan aldığımız güçle hiçbir zaman sahibi olamayacağımız zaman mefhumuna layığıyla emanetçilik etmeye çalışan ve bunun yolunun elimizden geldiğince kendimizi ve birbirimizi geliştirerek bugünümüzü daha verimli hale getirmekten geçtiğini farketmiş gençleriz."
+        />
       </Head>
       <main className={styles.teamGeneral}>
         <Container className="my-5">

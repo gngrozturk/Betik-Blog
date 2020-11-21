@@ -4,7 +4,7 @@ const { default: Footer } = require("./footer");
 
 function Layout({ children }) {
   return (
-    <div lang="tr-tr">
+    <div lang="tr">
       <Head>
         <title>Ana Sayfa</title>
         <meta charset="UTF-8" />
@@ -13,10 +13,6 @@ function Layout({ children }) {
         <meta
           name="keywords"
           content="Psikoloji,Yazılım,Nöroloji,Teknoloji,Uzay,Tarih"
-        />
-        <meta
-          name="description"
-          content="Psikoloji,Yazılım,Nöroloji,Teknoloji,Uzay,Tarih ve daha birçok alanla ilgili yazıları burada bulabilirsiniz."
         />
 
         <link

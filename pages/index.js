@@ -15,6 +15,12 @@ import Moment from "moment";
 function HomePage({ articles, items, guestarticles }) {
   return (
     <Layout>
+     <Head>
+        <meta
+          name="description"
+          content="Psikoloji,Yazılım,Nöroloji,Teknoloji,Uzay,Tarih ve daha birçok alanla ilgili yazıları burada bulabilirsiniz."
+        />
+      </Head>
       <div className={styles.typewritter}>
         <Container>
           <div className={styles.text}>
