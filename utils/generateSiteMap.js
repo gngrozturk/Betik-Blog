@@ -24,9 +24,9 @@ async function generateSiteMap() {
 
         const route = path === "/index" ? "" : path;
         return `
-                <url>
-                    <loc>${`https://www.betikblog.com/${route}`}</loc>
-                </url>
+  <url>
+      <loc>${`https://www.betikblog.com/${route}`}</loc>
+  </url>
             `;
       })
       .join("")}
