@@ -244,8 +244,8 @@ function HomePage({ articles, items, guestarticles }) {
                 />
 
                 <div className={styles.names}>
-                  <h4>Melih Can Ekşioğlu</h4>
-                  <h6>Yazar</h6>
+                  <p className={styles.nameSize}>Melih Can Ekşioğlu</p>
+                  <p>Yazar</p>
                   <a
                     className={styles.btnGrad}
                     href="/melihcaneksioglu"
@@ -267,8 +267,8 @@ function HomePage({ articles, items, guestarticles }) {
                 />
 
                 <div className={styles.names}>
-                  <h4>Kübra Nur Bektaş</h4>
-                  <h6>Yazar</h6>
+                  <p className={styles.nameSize}>Kübra Nur Bektaş</p>
+                  <p>Yazar</p>
                   <a
                     className={styles.btnGrad}
                     href="/kubranurbektas"
@@ -289,8 +289,8 @@ function HomePage({ articles, items, guestarticles }) {
                 />
 
                 <div className={styles.names}>
-                  <h4>Güngör Öztürk</h4>
-                  <h6>Yazar</h6>
+                  <p className={styles.nameSize}>Güngör Öztürk</p>
+                  <p>Yazar</p>
                   <a
                     className={styles.btnGrad}
                     href="/gungorozturk"
@@ -310,8 +310,8 @@ function HomePage({ articles, items, guestarticles }) {
                   fluid
                 />
                 <div className={styles.names}>
-                  <h4>Furkan Öztekin</h4>
-                  <h6>Yazar</h6>
+                  <p className={styles.nameSize}>Furkan Öztekin</p>
+                  <p>Yazar</p>
                   <a
                     className={styles.btnGrad}
                     href="/furkanoztekin"
@@ -332,12 +332,12 @@ function HomePage({ articles, items, guestarticles }) {
                 />
 
                 <div className={styles.names}>
-                  <h4>Salih Akın</h4>
-                  <h6>Sosyal Medya Sorumlusu</h6>
+                  <p className={styles.nameSize}>Salih Akın</p>
+                  <p>Sosyal Medya Sorumlusu</p>
                 </div>
               </Col>
             </Row>
-            <Row className={styles.contentCenter}>
+            <Row className={styles.buttonCenter}>
               <a
                 className={styles.btnDetail}
                 href="/team"
