@@ -4,7 +4,7 @@ const { default: Footer } = require("./footer");
 
 function Layout({ children }) {
   return (
-    <div>
+    <div lang="tr-tr">
       <Head>
         <title>Ana Sayfa</title>
         <meta charset="UTF-8" />
