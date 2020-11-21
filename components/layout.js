@@ -7,9 +7,9 @@ function Layout({ children }) {
     <div lang="tr">
       <Head>
         <title>Ana Sayfa</title>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta
           name="keywords"
           content="Psikoloji,Yazılım,Nöroloji,Teknoloji,Uzay,Tarih"
@@ -28,14 +28,14 @@ function Layout({ children }) {
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
 
         <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
       </Head>
       <Navigation />
