@@ -33,27 +33,29 @@ function HomePage({ guestarticles }) {
                   guestarticle.id
                 }`}
               >
-                <Card key={guestarticle.id} className={styles.cardGeneral}>
-                  <Card.Img
-                    className={styles.cardImg}
-                    variant="top"
-                    src={guestarticle.guestbanner.name}
-                    alt={guestarticle.guesttitle}
-                  />
-                  <Card.Body>
-                    <h2 className={styles.cardTitle}>
-                      {guestarticle.guesttitle}
-                    </h2>
-                    <br />
-                    <h5>{guestarticle.guestname}</h5>
-                  </Card.Body>
-                  <Card.Footer>
-                    <small className="text-muted">
-                      <i class="far fa-clock"></i>{" "}
-                      {Moment(guestarticle.guestdate).format("DD.MM.YYYY")}
-                    </small>
-                  </Card.Footer>
-                </Card>
+                <a className={styles.links}>
+                  <Card key={guestarticle.id} className={styles.cardGeneral}>
+                    <Card.Img
+                      className={styles.cardImg}
+                      variant="top"
+                      src={guestarticle.guestbanner.name}
+                      alt={guestarticle.guesttitle}
+                    />
+                    <Card.Body>
+                      <h2 className={styles.cardTitle}>
+                        {guestarticle.guesttitle}
+                      </h2>
+                      <br />
+                      <h5>{guestarticle.guestname}</h5>
+                    </Card.Body>
+                    <Card.Footer>
+                      <small className="text-muted">
+                        <i class="far fa-clock"></i>{" "}
+                        {Moment(guestarticle.guestdate).format("DD.MM.YYYY")}
+                      </small>
+                    </Card.Footer>
+                  </Card>
+                </a>
               </Link>
             </Col>
           ))}
