@@ -50,7 +50,7 @@ export default function ArticleHeader({
           >
             <CopyToClipboard
               text={href}
-              onCopy={() => setCopyText("Koylanadı!")}
+              onCopy={() => setCopyText("Kopyalandı!")}
             >
               <Link height="30" width="30" className="mr-3" />
             </CopyToClipboard>
