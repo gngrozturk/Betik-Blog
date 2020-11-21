@@ -28,8 +28,8 @@ function HomePage({ guestarticles }) {
           {guestarticles.map((guestarticle) => (
             <Col sm={3} md={6} lg={3} className="my-2">
               <Link
-                href="/guestarticle/[guestslug]"
-                as={`/guestarticle/${slug(guestarticle.guesttitle)}-${
+                href="/misafirblog/[guestslug]"
+                as={`/misafirblog/${slug(guestarticle.guesttitle)}-${
                   guestarticle.id
                 }`}
               >

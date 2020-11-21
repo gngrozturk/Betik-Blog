@@ -93,8 +93,8 @@ function HomePage({ articles, items, guestarticles }) {
           {articles.slice(0, 4).map((article) => (
             <Col sm={3} md={6} lg={3} className="my-2">
               <Link
-                href="/article/[slug]"
-                as={`/article/${slug(article.title)}-${article.id}`}
+                href="/blog/[slug]"
+                as={`/blog/${slug(article.title)}-${article.id}`}
               >
                 <a className={styles.links}>
                   <Card key={article.id} className={styles.cardGeneral}>
@@ -138,8 +138,8 @@ function HomePage({ articles, items, guestarticles }) {
             .map((guestarticle) => (
               <Col sm={3} md={6} lg={3} className="my-2">
                 <Link
-                  href="/guestarticle/[guestslug]"
-                  as={`/guestarticle/${slug(guestarticle.guesttitle)}-${
+                  href="/misafirblog/[guestslug]"
+                  as={`/misafirblog/${slug(guestarticle.guesttitle)}-${
                     guestarticle.id
                   }`}
                 >

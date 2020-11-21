@@ -32,8 +32,8 @@ function ArticleDetail({ articles }) {
           {articles.map((article) => (
             <Col sm={3} md={6} lg={3} className="my-2">
               <Link
-                href="/article/[slug]"
-                as={`/article/${slug(article.title)}-${article.id}`}
+                href="/blog/[slug]"
+                as={`/blog/${slug(article.title)}-${article.id}`}
               >
                 <a className={styles.links}>
                   <Card key={article.id} className={styles.cardGeneral}>
