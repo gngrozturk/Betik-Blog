@@ -64,7 +64,7 @@
   margin-top: 1.5em;
 }
 
-.buttonCenter{
+.buttonCenter {
   justify-content: center;
 }
 
@@ -89,11 +89,20 @@
   font-size: 1.1rem;
   text-align: center;
 }
+
 .names {
   text-align: center;
 }
 
-.nameSize{
+.links {
+  color: #212529;
+}
+
+.links:hover {
+  text-decoration: none;
+  color: #212529;
+}
+.nameSize {
   font-size: 1.5rem;
   margin-bottom: 0;
 }
@@ -103,14 +112,14 @@
   font-family: "Raleway", sans-serif;
 }
 
-.teamCol{
-margin-bottom: 1em;
+.teamCol {
+  margin-bottom: 1em;
 }
 
 .personImg {
   margin-top: 1em;
-  padding-right: .65em;
-  padding-left: .65em;
+  padding-right: 0.65em;
+  padding-left: 0.65em;
 }
 
 .btnGrad {

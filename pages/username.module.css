@@ -1,6 +1,16 @@
 .pageGeneral{
   min-height: 85vh;
 }
+
+.links {
+  color: #212529;
+}
+
+.links:hover {
+  text-decoration: none;
+  color: #212529;
+}
+
 .cardGeneral {
   text-align: center;
   box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.5);

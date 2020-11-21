@@ -15,7 +15,7 @@ import Moment from "moment";
 function HomePage({ articles, items, guestarticles }) {
   return (
     <Layout>
-     <Head>
+      <Head>
         <meta
           name="description"
           content="Psikoloji,Yazılım,Nöroloji,Teknoloji,Uzay,Tarih ve daha birçok alanla ilgili yazıları burada bulabilirsiniz."
@@ -96,29 +96,31 @@ function HomePage({ articles, items, guestarticles }) {
                 href="/article/[slug]"
                 as={`/article/${slug(article.title)}-${article.id}`}
               >
-                <Card key={article.id} className={styles.cardGeneral}>
-                  <Card.Img
-                    className={styles.cardImg}
-                    variant="top"
-                    src={article.banner.name}
-                    alt={article.title}
-                  />
-                  <Card.Body>
-                    <h2 className={styles.cardTitle}>{article.title}</h2>
-                    <br />
-                    <h5>
-                      {article.created_by.firstname +
-                        " " +
-                        article.created_by.lastname}
-                    </h5>
-                  </Card.Body>
-                  <Card.Footer>
-                    <small className="text-muted">
-                      <i class="far fa-clock"></i>{" "}
-                      {Moment(article.date).format("DD.MM.YYYY")}
-                    </small>
-                  </Card.Footer>
-                </Card>
+                <a className={styles.links}>
+                  <Card key={article.id} className={styles.cardGeneral}>
+                    <Card.Img
+                      className={styles.cardImg}
+                      variant="top"
+                      src={article.banner.name}
+                      alt={article.title}
+                    />
+                    <Card.Body>
+                      <h2 className={styles.cardTitle}>{article.title}</h2>
+                      <br />
+                      <h5>
+                        {article.created_by.firstname +
+                          " " +
+                          article.created_by.lastname}
+                      </h5>
+                    </Card.Body>
+                    <Card.Footer>
+                      <small className="text-muted">
+                        <i class="far fa-clock"></i>{" "}
+                        {Moment(article.date).format("DD.MM.YYYY")}
+                      </small>
+                    </Card.Footer>
+                  </Card>
+                </a>
               </Link>
             </Col>
           ))}
@@ -141,27 +143,29 @@ function HomePage({ articles, items, guestarticles }) {
                     guestarticle.id
                   }`}
                 >
-                  <Card key={guestarticle.id} className={styles.cardGeneral}>
-                    <Card.Img
-                      className={styles.cardImg}
-                      variant="top"
-                      src={guestarticle.guestbanner.name}
-                      alt={guestarticle.guesttitle}
-                    />
-                    <Card.Body>
-                      <h2 className={styles.cardTitle}>
-                        {guestarticle.guesttitle}
-                      </h2>
-                      <br />
-                      <h5>{guestarticle.guestname}</h5>
-                    </Card.Body>
-                    <Card.Footer>
-                      <small className="text-muted">
-                        <i class="far fa-clock"></i>{" "}
-                        {Moment(guestarticle.guestdate).format("DD.MM.YYYY")}
-                      </small>
-                    </Card.Footer>
-                  </Card>
+                  <a className={styles.links}>
+                    <Card key={guestarticle.id} className={styles.cardGeneral}>
+                      <Card.Img
+                        className={styles.cardImg}
+                        variant="top"
+                        src={guestarticle.guestbanner.name}
+                        alt={guestarticle.guesttitle}
+                      />
+                      <Card.Body>
+                        <h2 className={styles.cardTitle}>
+                          {guestarticle.guesttitle}
+                        </h2>
+                        <br />
+                        <h5>{guestarticle.guestname}</h5>
+                      </Card.Body>
+                      <Card.Footer>
+                        <small className="text-muted">
+                          <i class="far fa-clock"></i>{" "}
+                          {Moment(guestarticle.guestdate).format("DD.MM.YYYY")}
+                        </small>
+                      </Card.Footer>
+                    </Card>
+                  </a>
                 </Link>
               </Col>
             ))}

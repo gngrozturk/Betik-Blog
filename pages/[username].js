@@ -35,29 +35,31 @@ function ArticleDetail({ articles }) {
                 href="/article/[slug]"
                 as={`/article/${slug(article.title)}-${article.id}`}
               >
-                <Card key={article.id} className={styles.cardGeneral}>
-                  <Card.Img
-                    className={styles.cardImg}
-                    variant="top"
-                    src={article.banner.name}
-                    alt={article.title}
-                  />
-                  <Card.Body>
-                    <h2 className={styles.cardTitle}>{article.title}</h2>
-                    <br />
-                    <h5>
-                      {article.created_by.firstname +
-                        " " +
-                        article.created_by.lastname}
-                    </h5>
-                  </Card.Body>
-                  <Card.Footer>
-                    <small className="text-muted">
-                      <i class="far fa-clock"></i>{" "}
-                      {Moment(article.date).format("DD.MM.YYYY")}
-                    </small>
-                  </Card.Footer>
-                </Card>
+                <a className={styles.links}>
+                  <Card key={article.id} className={styles.cardGeneral}>
+                    <Card.Img
+                      className={styles.cardImg}
+                      variant="top"
+                      src={article.banner.name}
+                      alt={article.title}
+                    />
+                    <Card.Body>
+                      <h2 className={styles.cardTitle}>{article.title}</h2>
+                      <br />
+                      <h5>
+                        {article.created_by.firstname +
+                          " " +
+                          article.created_by.lastname}
+                      </h5>
+                    </Card.Body>
+                    <Card.Footer>
+                      <small className="text-muted">
+                        <i class="far fa-clock"></i>{" "}
+                        {Moment(article.date).format("DD.MM.YYYY")}
+                      </small>
+                    </Card.Footer>
+                  </Card>
+                </a>
               </Link>
             </Col>
           ))}
