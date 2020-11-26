@@ -6,6 +6,19 @@ function Layout({ children }) {
   return (
     <div lang="tr">
       <Head>
+        <>
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=G-LYWM7V3Z75`}
+          />
+          <script
+            type="text/javascript"
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-LYWM7V3Z75');`,
+            }}
+          />
+        </>
+
         <title>Ana Sayfa</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
