@@ -18,7 +18,9 @@ export default function ArticleHeader({
   date,
 }) {
   const [copyText, setCopyText] = React.useState("Kopyala");
-  const [href, setHref] = React.useState("");
+  const [href, setHref] = React.useState(
+    typeof window !== "undefined" ? window.location.href : null
+  );
 
   const shareOnTwitter = () => {
     const twUrl = new URL("https://twitter.com/intent/tweet");

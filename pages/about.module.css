@@ -29,3 +29,9 @@
       max-height: 200px;
       }
   }
+
+  .pageGeneral{
+    min-height: 85vh;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }

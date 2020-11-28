@@ -371,6 +371,16 @@ function HomePage({ articles, items, guestarticles }) {
             allow="encrypted-media"
           ></iframe>
         </Row>
+
+        <Row className={styles.contentCenter}>
+          <a
+            href="/privacy"
+            aria-pressed="true"
+            className={styles.links}
+          >
+            Privacy
+          </a>
+        </Row>
       </Container>
     </Layout>
   );
