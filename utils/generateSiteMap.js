@@ -3,11 +3,11 @@ const globby = require("globby");
 
 async function generateSiteMap() {
   const pages = await globby([
-    "**/*.html",
-    "!_next/",
-    "!sitemap.xml",
-    "!*.png",
-    "!**/[id].js",
+    "out/**/*.html",
+    "!out/_next/",
+    "!out/sitemap.xml",
+    "!out/*.png",
+    "!out/**/[id].js",
   ]);
 
   const sitemap = `
