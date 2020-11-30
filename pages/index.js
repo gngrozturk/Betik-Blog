@@ -133,7 +133,6 @@ function HomePage({ articles, items, guestarticles }) {
 
         <Row className={styles.contentCenter}>
           {guestarticles
-            .reverse()
             .slice(0, 4)
             .map((guestarticle) => (
               <Col sm={3} md={6} lg={3} className="my-2">
