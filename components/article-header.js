@@ -42,7 +42,8 @@ export default function ArticleHeader({
           <h5>{firstname + " " + lastname}</h5>
           <p className="text-muted">
             {Moment(date).set({ hour: 17 }).fromNow()} •{" "}
-            {`${Math.ceil(ReadingTime(content).minutes)} dakika okunma`}
+            <i class="fas fa-hourglass-half mx-1"></i> 
+            {`${Math.ceil(ReadingTime(content).minutes)}  dakika`}
           </p>
         </div>
         <div className={styles.share}>
