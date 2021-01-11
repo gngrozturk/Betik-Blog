@@ -56,13 +56,13 @@ function Navigation() {
                 href="/melihcaneksioglu"
                 className={styles.dropdownItem}
               >
-                Melih C. Ekşioğlu
+                Melih Ekşioğlu
               </NavDropdown.Item>
               <NavDropdown.Item
                 href="/kubranurbektas"
                 className={styles.dropdownItem}
               >
-                Kübra N. Bektaş
+                Kübra Bektaş
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/misafiryazarlar" className={styles.mainItems}>
