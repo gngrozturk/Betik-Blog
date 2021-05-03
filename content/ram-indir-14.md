@@ -1,0 +1,20 @@
+---
+slug: ram-indir-14
+title: RAM İndir (!)
+author: Güngör Öztürk
+username: gungorozturk
+banner: https://images.pexels.com/photos/2588757/pexels-photo-2588757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+date: August 17, 2020
+---
+
+Herkese merhaba. İsmini günlük hayatta sıkça duyduğumuz bilgisayar bileşenlerini sizce yeterince tanıyor muyuz? Mesela bilgisayarlara karşı çok ilgili olmayanlarımızın bile en azından bir kere mutlaka duyduğu bileşenlerden biri olan RAM nedir? Veya ne işe yarar? Gelin bu yazıda sahip olduğumuz teknolojiye birlikte biraz daha yakından bakalım.
+
+Bilgisayar fonksiyonel birçok bileşenin bir araya gelmesiyle oluşan kompleks bir sistemdir. Biz yukarda verdiğimiz RAM örneğinden devam edelim. RAM yani Random Access Memory (Rastgele Erişimli Bellek) kısaca elektronik cihazların kısa süreli hafızasıdır. RAM’de anlık veriler depolanır ve geçici olarak tutulan bu veriler gönderilmesi gereken birime gönderildikten sonra silinir ve takiben tutulması gereken yeni veriler getirilir. Bu döngü yapılan her işlemde tekrar eder. İşletim sistemleri, tarayıcı kullanımı, oyunlar, video oynatıcı v.b. kısacası tüm işlemler RAM’den geçer. Burada aklınıza “Madem RAM de bir bellek, yerine sabit disk koysak aynı işi yapamaz mıyız?” gibi bir soru gelebilir. Evet teknik olarak bilgisayarın içinde geçici bir depolama birimi olduğu sürece ne olduğu farketmeksizin bilgisayar çalışır ve işlemci doğrudan sabit diskle iletişime geçerek istenen işlemleri gerçekleştirebilir ancak bu günümüz cihazlarına nazaran çok ama çok yavaş bir kullanım sunar. Öyle ki günümüz koşullarının hayatımıza soktuğu ve gerçekten hatrı sayılır bir hıza sahip olan SSD teknolojisini bile kullansak yavaş kalır. Zira SSD’ler ne kadar hızlı olsa da sürekli olarak kendisini tazeleyerek sabit disk ve diğer bileşenler arasında bir köprü görevi gören RAM kadar hızlı değil maalesef.
+
+Peki bu RAM madem bu kadar iyi neden bilgisayarlarımızda sabit disk yerine depolama birimi olarak kullanmıyoruz? Cevabı basit. RAM’ler bilgisayar açıkken çalışan ve yalnızca geçici olarak veri tutan bir bileşen yani yüksek performans gerektiren kısa süreli işlemlerde kullanılıyor - ki bilgisayarınızı açtığınızda kapatırken açık bıraktığınız uygulamaların kapanmış olmasının sebebi de bu – sabit diskler ise düşük performans ve kalıcılık gerektiren işlemlerde kullanılıyor.
+
+RAM’ler sadece bilgisayarlarla kullanılmıyor. Cep telefonu, fotoğraf makinesi, yazıcılar, ağ donanımları, oyun konsolları, ekran kartı gibi cihazlarda da farklı RAM çeşitleri kullanılıyor. Mesela günümüz bilgisayarı genellikle DDR tür RAM kullanırken mobil cihazlarda daha az güç tüketen LPDDR tür RAM kullanımı daha yaygın. Hangi cihazda hangi RAM’in kullanılacağı ise ihtiyaca uygunluğa göre belirleniyor. Örneğin mobil cihazlarda alan sınırlı olduğu için, içerdeki bileşenlerin soğutulması bilgisayarlardan daha zor. O yüzden hem cihaz boyutları küçüldüğü için hem de soğutma olanağı kısıtlı olduğu için bileşenlerin boyutlarında küçülmeye gidiliyor.
+
+Peki gelelim o meşhur soruya. “Çift kanallı RAM mi yoksa tek kanallı RAM mi kullanmak daha avantajlı?” yani diyelim ki bilgisayarınızda 16 GB RAM kullanmaya karar verdiniz. Bunu 8 GB’lık iki RAM kullanarak mı yoksa bir tane 16 GB’lık RAM kullanarak mı yapmak daha avantajlı? Çift kanallı RAM kullanmanız tek kanallı RAM’e göre daha avantajlı olacaktır. Toplamda bellek miktarı aynı olsa da çift kanal kullanımında veri trafiği yoğunluğu tek kanallı RAM’e göre daha az olacaktır. Bunu çift şeritli ve tek şeritli bir yoldaki araç trafiği gibi düşünebilirsiniz. Araç sayısı sabit tutulduğunda çift şeritli yolda araçların hızlı gidebilmesi tek şeritliye göre daha kolay olacaktır.
+
+Bu yazıda bilgisayarların önemli bileşenlerinden birini tanıyarak sahip olduğumuz bu cihazların çalışma sistemlerini kavramak adına bir adım attık. Zaman ayırıp okuduğunuz için teşekkür ederim.

@@ -1,0 +1,26 @@
+---
+slug: muzik-terapi-30
+title: Müzik Terapi
+author: Melih Can Ekşioğlu
+username: melihcaneksioglu
+banner: https://images.unsplash.com/photo-1587689857120-f708fa5f1837?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
+date: July 13, 2020
+---
+
+Müzik bize başka alemlerin ve kendi iç alemimizin kapılarını açan çok mühim bir sanat dalıdır.Victor Hugo “Söz ile ifade edilemeyen ama sessizde kalamayacağımız hisleri ifade etmemizi sağlayan şeydir.” diye müziğin tanımını yapar.Müzik neredeyse insan var olduğunda beri bizimle birlikte var olan bir şeydir.Kazı çalışmalarına baktığımızda en eski kalıntılarda müzik aletlerine rastlarız.
+
+İnsanlığın tedavi için kullanmaya başladığı ilk yöntemlerden biri de müzik ile tedavidir.Müzikle tedavinin tarihi tıp kadar eskiye gitmektedir. Çünkü insanlar, tedavi araçlarını çoğu kez bir arada kullanıyorlardı. Homer,ameliyatlarda müzik kullanmış ve başarılı olmuştur. Eflatun, özellikle müziğin öğretilmesi üzerinde çok durmuştur. Askulap, sağırlığı tedavi etmek için trampet kullanmıştır. Gerek Cicero, gerek Celsus, müziğin akıl hastaları üzerindeki iyi etkisinden bahsederler.
+
+Selçuklu Sultanı Nurettin Zengi tarafından yaptırılan Nurettin Hastanesi’nde müzik terapi sistemli bir şekilde kullanılmıştır. Sonraki dönemlerde Kayseri, Sivas,Amasya, Manisa, Bursa ve Edirne şifahanelerinde bu konuda terapi uygulamaları yapıldığı ve haftada üç gün hastalara uygun makamların ney, çeng, santur,miskal (musikar), ud, keman, rebab ve ritim aletleri ile icra edildiği,özellikle Evliya Çelebi seyahatnamesinde ve diğer bazı eserlerde yazılmıştır.
+
+Müzik dinleyen bir insanı beyin görüntüleme sistemleri sayesinde incelediğimiz zaman birden çok beyin bölgesinin aktifleştiğine şahit oluyoruz.Beynimiz önce sesi işleyip melodi ve ritim öğelerine ayrıştırdıktan sonra hepsini geri bir araya getirerek birleşik bir müzik deneyimi oluşturuyor ve bunu çok kısa bir zaman diliminde yapıyor.Sadece dinlemek ile kalmayıp bir de müzik aleti çalmaya başlarsak beynimiz aynı anda son derece farklı ve karışık bilgileri birbirine bağlar şaşırtıcı derecede hızlı seriler ile işler ve çok güzel bir parça ortaya çıkar.
+
+Enstrüman çalan insanda beynin görsel, işitsel ve motor alanları aynı zaman diliminde bir arada çalışır.Enstrüman çalan kişi: gözü notada(görsel alan), eli ve ayağı müzik aletinde(motor alan) ve kulağı icra ettiği müzikte(işitsel alan) aktif hale geliyor.Bu sebeplerden dolayı beynimizin bu kadar aktif olduğu nadir aktivitelerden biridir.Enstrüman çalarken beynin bu kadar alanı aktif olduğu için iki yarım küre arasında bağlantı sağlanması gereklidir.Beynimizde iki yarım küreyi birbirine bağlayan yapının adı corpus callosumdur.Estrüman çalan insanlarda bu yapı çok gelişmektedir. Bu yapının gelişmesi insanın daha bütüncül bir şekilde hayata bakmasını sağlar, karşılaştığı sorunları çözmede çok daha başarılı kılar.
+
+Hamile iken müzik dinlemenin anne ve embriyo için etkileri de çok önemlidir.Belfast Queen’s Üniversitesi’nde psikolog olan Profesör Peter Hepper, 20 haftalık bir ceninin müziği duyabildiğini söylüyor. Hatta Keele Üniversitesindeki psikologlar biraz daha ileri gidip 20 haftalıktan sonra bir ceninin müziği hatırlayacağını belirtiyorlar(‘Mozart Bebekleri’ dediğimiz bebeklere anne karnında Mozart dinletiliyor.Doğduktan sonra ayni beste dinletilince bebek değişik tepkiler veriyor buradan da dinlediği sesleri hatırladığını anlıyoruz).Oysa bilim adamları daha önceleri 24 haftadan küçük olan bebeklerin beyinlerindeki ilgili korteksin gelişmemiş olmasından dolayı, hafızalarının olmadığını var sayıyorlardı.Hamile iken müzik dinlemek direkt bebeği etkiliyor aynı zamanda annenin duygu durumunu, hormonal dengesini daha sağlıklı hale getiriyor.Annenin duygu durumu direkt çocuğu etkilediği için annenin ruhsal durumunu iyileştirecek müzikler dinlemek embriyonun gelişimini hem doğrudan hem de anne aracılığı ile dolaylı olarak etkiliyor.
+
+Şimdi size ileri derecede alzheimer hastası olan Henry’den bahsedeceğim.Henry dış dünya ile ilişkisi kopmuş, herhangi bir kimse ile sağlıklı iletişim kuramıyor, sorulan sorulara sadece evet/hayır diye basit cevaplar veriyor. Bir gün ailesinden Henry’nin en sevdiği parçayı öğreniyorlar.Bir kulaklık ile en sevdiği parça dinletiliyor. Bir anda Henry canlanıyor, gözleri parıldıyor, kafasını kaldırıyor, ayağı ile ritim tutuyor ritme göre hafifçe sallanıyor ve şarkıya eşlik ediyor.Yıllardır kimse ile neredeyse bir kelime konuşmamış Henry şarkı ile adeta yeniden can buluyor.
+
+Müzik adeta bir mıknatıs gibi insan ruhunun derinliklerinde yer alan bazı şeyleri dışarıya çıkarıyor.Her geçen gün biraz daha ruhsuzlaşan şu dünyada aradığımız ruhu belki de şarkılarda buluyoruz. Şarkılar derin bir nefes almamızı sağlıyor Tüm bunları göz önüne aldığımızda müziğin düşüncelerimizi, duygularımızı çok derinden etkilediğini ve bu etkilenmenin zamanla geçmediğini görüyoruz.
+
+Henry’nin Öyküsü Henry Belgesel ÇOBANOĞLU, E.: “Ruh hastalıklarının güzel san’atlarla tedavisi”. Ankara Üniversitesi Tıp Fakültesi Mecmuası, 13: 257-262, 1962. Tavsiye Kaynak: Müzikofili YKY (Oliver Sacks)

@@ -35,13 +35,13 @@ function Navigation() {
               className={styles.mainItems}
             >
               <NavDropdown.Item
-                href="/gungorozturk"
+                href="/yazarlar/gungorozturk"
                 className={styles.dropdownItem}
               >
                 Güngör Öztürk
               </NavDropdown.Item>
               <NavDropdown.Item
-                href="/furkanoztekin"
+                href="/yazarlar/furkanoztekin"
                 className={styles.dropdownItem}
               >
                 Furkan Öztekin
@@ -53,19 +53,19 @@ function Navigation() {
               className={styles.mainItems}
             >
               <NavDropdown.Item
-                href="/melihcaneksioglu"
+                href="/yazarlar/melihcaneksioglu"
                 className={styles.dropdownItem}
               >
                 Melih Ekşioğlu
               </NavDropdown.Item>
               <NavDropdown.Item
-                href="/kubranurbektas"
+                href="/yazarlar/kubranurbektas"
                 className={styles.dropdownItem}
               >
                 Kübra Bektaş
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/misafiryazarlar" className={styles.mainItems}>
+            <Nav.Link href="/yazarlar/misafiryazarlar" className={styles.mainItems}>
               Misafir Yazarlar{" "}
             </Nav.Link>
           </Nav>

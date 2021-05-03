@@ -75,7 +75,7 @@ function Team() {
                       <Row className={styles.btnAlign}>
                         <a
                           className={styles.btnGrad}
-                          href="/gungorozturk"
+                          href="/yazarlar/gungorozturk"
                           role="button"
                           aria-pressed="true"
                         >
@@ -136,7 +136,7 @@ function Team() {
                       <Row className={styles.btnAlign}>
                         <a
                           className={styles.btnGrad}
-                          href="/furkanoztekin"
+                          href="/yazarlar/furkanoztekin"
                           role="button"
                           aria-pressed="true"
                         >
@@ -202,7 +202,7 @@ function Team() {
                       <Row className={styles.btnAlign}>
                         <a
                           className={styles.btnGrad}
-                          href="/kubranurbektas"
+                          href="/yazarlar/kubranurbektas"
                           role="button"
                           aria-pressed="true"
                         >
@@ -273,7 +273,7 @@ function Team() {
                       <Row className={styles.btnAlign}>
                         <a
                           className={styles.btnGrad}
-                          href="/melihcaneksioglu"
+                          href="/yazarlar/melihcaneksioglu"
                           role="button"
                           aria-pressed="true"
                         >
@@ -287,56 +287,7 @@ function Team() {
             </Col>
           </Row>
 
-          <Row className={styles.rowCenter}>
-            <Col lg={10}>
-              <Card className={styles.personCard}>
-                <Card.Body>
-                  <Row>
-                    <Col lg={3}>
-                      <Row>
-                        <Image
-                          src="/Salih.png"
-                          roundedCircle
-                          fluid
-                          alt="Salih Akın"
-                        />
-                      </Row>
-                      <Row className={styles.mediaRow}>
-                        <a href="https://instagram.com/salih.kn?igshid=143kt067e4q6j">
-                          <Instagram className={styles.icon} />
-                        </a>
-                        <a href="https://twitter.com/salih_kn">
-                          <Twitter className={styles.icon} />
-                        </a>
-                      </Row>
-                    </Col>
-
-                    <Col lg={9}>
-                      <Row>
-                        <Col>
-                          <h4 className={styles.name}>Salih Akın</h4>
-                          <p>
-                            Herkese merhaba, ben Salih Akın. Orta Doğu Teknik
-                            Üniversitesi Mimarlık Bölümü 1. sınıf öğrencisiyim.
-                            Hepimizin 'kendimizi gerçekleştirmek' üzere adım
-                            attığı bu çağın vazgeçilmez bir gerçeği de üretim.
-                            Bir şeyler üretmek, yeni bir şey öğrenmek ve bunları
-                            paylaşarak gelişime bir katkıda bulunmak; yeni
-                            bilgiler ve fikirler eşliğinde yeniliğin bir parçası
-                            olmak ümidiyle bu platformda sizlerle paylaşım
-                            içerisinde olmaktan büyük keyif duyuyorum.
-                            Hayallerimi kovaladığım, 'geçmişe tutunarak geleceği
-                            üretmek' gayesiyle ilerlediğim bu yolda destek olan
-                            herkese çok teşekkür ediyorum.
-                          </p>
-                        </Col>
-                      </Row>
-                    </Col>
-                  </Row>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
+        
         </Container>
       </main>
     </Layout>

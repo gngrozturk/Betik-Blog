@@ -3,7 +3,6 @@ import Link from "next/link";
 import Layout from "../components/layout";
 import unfetch from "isomorphic-unfetch";
 import Image from "react-bootstrap/Image";
-import slug from "slug";
 import { Container, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
@@ -11,8 +10,22 @@ import styles from "./index.module.css";
 import { Spotify, Instagram, Twitter, Youtube } from "../components/icons";
 import Typewriter from "typewriter-effect";
 import Moment from "moment";
+import matter from "gray-matter";
 
-function HomePage({ articles, items, guestarticles }) {
+Moment.locale("TR");
+
+function HomePage({ data, items }) {
+  const RealData = data.map((blog) => matter(blog));
+  const ListItems = RealData.map((listItem) => listItem.data);
+
+  const sortByDate = (ListItems) => {
+    const sorter = (a, b) => {
+      return new Date(b.date) - new Date(a.date);
+    };
+    ListItems.sort(sorter);
+  };
+  sortByDate(ListItems);
+
   return (
     <Layout>
       <Head>
@@ -84,39 +97,32 @@ function HomePage({ articles, items, guestarticles }) {
           </Row>
         </Container>
       </div>
-
       <Container className="my-5">
         <Row className={styles.contentCenter}>
           <h1 className={styles.titleCenter}>En Yeniler</h1>
         </Row>
+
         <Row className={styles.contentCenter}>
-          {articles.slice(0, 4).map((article) => (
+          {ListItems.slice(0, 4).map((blog, i) => (
             <Col sm={3} md={6} lg={3} className="my-2">
-              <Link
-                href="/blog/[slug]"
-                as={`/blog/${slug(article.title)}-${article.id}`}
-              >
+              <Link href={`blog/${blog.slug}`}>
                 <a className={styles.links}>
-                  <Card key={article.id} className={styles.cardGeneral}>
+                  <Card className={styles.cardGeneral}>
                     <Card.Img
                       className={styles.cardImg}
                       variant="top"
-                      src={article.banner.name}
-                      alt={article.title}
+                      src={blog.banner}
+                      alt={blog.title}
                     />
                     <Card.Body>
-                      <h2 className={styles.cardTitle}>{article.title}</h2>
+                      <h2 className={styles.cardTitle}>{blog.title}</h2>
                       <br />
-                      <h5>
-                        {article.created_by.firstname +
-                          " " +
-                          article.created_by.lastname}
-                      </h5>
+                      <h5>{blog.author}</h5>
                     </Card.Body>
                     <Card.Footer>
                       <small className="text-muted">
                         <i class="far fa-clock"></i>{" "}
-                        {Moment(article.date).format("DD.MM.YYYY")}
+                        {Moment(blog.date).set({ hour: 17 }).fromNow()}
                       </small>
                     </Card.Footer>
                   </Card>
@@ -125,61 +131,10 @@ function HomePage({ articles, items, guestarticles }) {
             </Col>
           ))}
         </Row>
-
+      </Container>
+      <Container className="my-5">
         <br />
-        <Row className={styles.contentCenter}>
-          <h3 className={styles.titleCenter}>Sizden Gelenler</h3>
-        </Row>
 
-        <Row className={styles.contentCenter}>
-          {guestarticles
-            .slice(0, 4)
-            .map((guestarticle) => (
-              <Col sm={3} md={6} lg={3} className="my-2">
-                <Link
-                  href="/misafirblog/[guestslug]"
-                  as={`/misafirblog/${slug(guestarticle.guesttitle)}-${
-                    guestarticle.id
-                  }`}
-                >
-                  <a className={styles.links}>
-                    <Card key={guestarticle.id} className={styles.cardGeneral}>
-                      <Card.Img
-                        className={styles.cardImg}
-                        variant="top"
-                        src={guestarticle.guestbanner.name}
-                        alt={guestarticle.guesttitle}
-                      />
-                      <Card.Body>
-                        <h2 className={styles.cardTitle}>
-                          {guestarticle.guesttitle}
-                        </h2>
-                        <br />
-                        <h5>{guestarticle.guestname}</h5>
-                      </Card.Body>
-                      <Card.Footer>
-                        <small className="text-muted">
-                          <i class="far fa-clock"></i>{" "}
-                          {Moment(guestarticle.guestdate).format("DD.MM.YYYY")}
-                        </small>
-                      </Card.Footer>
-                    </Card>
-                  </a>
-                </Link>
-              </Col>
-            ))}
-        </Row>
-        <Row className={styles.contentCenter}>
-          <a
-            className={styles.btnDetail}
-            href="/misafiryazarlar"
-            role="button"
-            aria-pressed="true"
-          >
-            Daha Fazlası İçin <i class="fas fa-chevron-right"></i>
-          </a>
-        </Row>
-        <br />
         <Row className={styles.contentCenter}>
           <Col lg={8}>
             <Card className={styles.announceCard}>
@@ -199,6 +154,18 @@ function HomePage({ articles, items, guestarticles }) {
             </Card>
           </Col>
         </Row>
+
+        <Row className={styles.contentCenter}>
+          <a
+            className={styles.btnDetail}
+            href="/yazarlar/misafiryazarlar"
+            role="button"
+            aria-pressed="true"
+          >
+            Misafir Yazarlar <i class="fas fa-chevron-right"></i>
+          </a>
+        </Row>
+
         <br />
         <Row className={styles.contentCenter}>
           <h3 className={styles.titleCenter}>Son Videomuz</h3>
@@ -229,7 +196,6 @@ function HomePage({ articles, items, guestarticles }) {
           </a>
         </Row>
       </Container>
-
       <div fluid className="my-5">
         <div className={styles.team}>
           <Container className="my-5">
@@ -251,7 +217,7 @@ function HomePage({ articles, items, guestarticles }) {
                   <p>Yazar</p>
                   <a
                     className={styles.btnGrad}
-                    href="/melihcaneksioglu"
+                    href="/yazarlar/melihcaneksioglu"
                     role="button"
                     aria-pressed="true"
                   >
@@ -274,7 +240,7 @@ function HomePage({ articles, items, guestarticles }) {
                   <p>Yazar</p>
                   <a
                     className={styles.btnGrad}
-                    href="/kubranurbektas"
+                    href="/yazarlar/kubranurbektas"
                     role="button"
                     aria-pressed="true"
                   >
@@ -296,7 +262,7 @@ function HomePage({ articles, items, guestarticles }) {
                   <p>Yazar</p>
                   <a
                     className={styles.btnGrad}
-                    href="/gungorozturk"
+                    href="/yazarlar/gungorozturk"
                     role="button"
                     aria-pressed="true"
                   >
@@ -317,7 +283,7 @@ function HomePage({ articles, items, guestarticles }) {
                   <p>Yazar</p>
                   <a
                     className={styles.btnGrad}
-                    href="/furkanoztekin"
+                    href="/yazarlar/furkanoztekin"
                     role="button"
                     aria-pressed="true"
                   >
@@ -325,21 +291,8 @@ function HomePage({ articles, items, guestarticles }) {
                   </a>
                 </div>
               </Col>
-              <Col md={6} lg={3}>
-                <Image
-                  className={styles.personImg}
-                  src="/Salih.png"
-                  alt="Salih Akın"
-                  roundedCircle
-                  fluid
-                />
-
-                <div className={styles.names}>
-                  <p className={styles.nameSize}>Salih Akın</p>
-                  <p>Sosyal Medya Sorumlusu</p>
-                </div>
-              </Col>
             </Row>
+            <br />
             <Row className={styles.buttonCenter}>
               <a
                 className={styles.btnDetail}
@@ -372,11 +325,7 @@ function HomePage({ articles, items, guestarticles }) {
         </Row>
 
         <Row className={styles.contentCenter}>
-          <a
-            href="/privacy"
-            aria-pressed="true"
-            className={styles.links}
-          >
+          <a href="/privacy" aria-pressed="true" className={styles.links}>
             Privacy
           </a>
         </Row>
@@ -386,25 +335,30 @@ function HomePage({ articles, items, guestarticles }) {
 }
 
 export async function getStaticProps() {
-  const data = await unfetch(
-    "https://betikblog.herokuapp.com/articles?_sort=created_at:DESC"
-  );
-  const articles = await data.json();
+  const fs = require("fs");
+
+  const files = fs.readdirSync(`${process.cwd()}/content`, "utf-8");
+
+  const blogs = files.filter((fn) => fn.endsWith(".md"));
 
   const video = await unfetch(
     "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&maxResults=25&playlistId=UUSWKuakUfWuDKphpYVakTQA&key=AIzaSyBVqkrYpS3bdem_bxDOwGfXXxoaPbnZjm4"
   );
   const videoJson = await video.json();
 
-  const dataGuest = await unfetch(
-    "https://betikblog.herokuapp.com/guestarticles?_sort=created_at:DESC"
-  );
-  const guestarticles = await dataGuest.json();
+  const data = blogs.map((blog) => {
+    const path = `${process.cwd()}/content/${blog}`;
+    const rawContent = fs.readFileSync(path, {
+      encoding: "utf-8",
+    });
+
+    return rawContent;
+  });
+
   return {
     props: {
-      articles,
+      data: data,
       items: videoJson.items ? videoJson.items : [],
-      guestarticles,
     },
   };
 }

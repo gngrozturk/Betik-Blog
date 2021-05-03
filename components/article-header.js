@@ -11,9 +11,7 @@ Moment.locale("TR");
 
 export default function ArticleHeader({
   title,
-  firstname,
-  lastname,
-  content,
+  name,
   keywords,
   date,
 }) {
@@ -39,11 +37,10 @@ export default function ArticleHeader({
     <Col>
       <Row className={styles.articleIntro}>
         <div>
-          <h5>{firstname + " " + lastname}</h5>
+          <h5>{name}</h5>
           <p className="text-muted">
             {Moment(date).set({ hour: 17 }).fromNow()} •{" "}
             <i class="fas fa-hourglass-half mx-1"></i> 
-            {`${Math.ceil(ReadingTime(content).minutes)}  dakika`}
           </p>
         </div>
         <div className={styles.share}>

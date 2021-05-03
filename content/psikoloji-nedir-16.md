@@ -1,0 +1,12 @@
+---
+slug: psikoloji-nedir-16
+title: Psikoloji Nedir?
+author: Kübra Nur Bektaş
+username: kubranurbektas
+banner: https://images.unsplash.com/photo-1495653797063-114787b77b23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
+date: March 16, 2020
+
+---
+Psikoloji kitabi tanım olarak; bir bireyi, bir topluluğu belirleyen, yönlendiren düşünme, duygulanma, davranış biçimlerinin tümü ya da kısaca ruhbilim şeklinde tanımlanabilir. Kesin sınırlarla ayrılmamakla beraber psikoloji birkaç alt dala ayrılabilir. Bunlar; klinik psikoloji, kavramsal psikoloji, gelişim psikolojisi, evrim psikolojisi, adli psikoloji, sağlıklı psikoloji, nöropsikoloji, mesleki psikoloji ve sosyal psikoloji gibi dallardır.
+
+Peki hem basit hem de kompleks varlıklar olan insanlar olarak psikolojiyi başka nasıl tanımlarız? Psikoloji bireysel olarak insanın fikirleri, hatıraları, çevresi, davranışları ve reflekslerinin nedenini ve sonucunu kapsar. Psikologlar ve psikiyatristler insan ruh sağlığının ve en önemlisi insan için doğru olan mutluluğun sağlanması için çalışır. Doğru olan mutluluk diyorum çünkü akıl sağlığı yerinde olmayan bir birey mutlu olduğunu dile getirebilir fakat bu onun sağlıksız bir vaziyette bırakılması gerektiği anlamına gelmez. Konu her zaman sağlıktır ve ruh sağlığı, fiziki anlamda da sağlıklı olabilmenin temel gerekliliklerinden biridir. Ruh sağlığını korumak içinse fiziksel anlamda sağlıklı olmak gereklidir ve kısacası, biri kaybedildiği takdirde kısır döngüye girmek çok olasıdır. Böyle durumlarda psikolog ya da psikiyatristlerden mutlaka yardım almak gerekir. Toplumdaki ‘deli doktoru’ algısının tam aksine insanlar psikologlara deli oldukları için değil, deli olmamak için giderler ve gitmelidirler. Yeterince hadise yaşamış ve travma geçirmiş bir ülke olarak, vatandaşlar bu algının düzeltilmesi doğrultusunda bilinçlendirilmelidir. Zihin, davranış ve psikoloji algılamakta hepimizin güçlük çektiği konular olduğu için araştırarak edindiğim bilgileri sizlerle paylaşmaktan, algıların değişmesi ve hepimizin, en başta kendimin, bilinçlenmesi için çabalamaktan gurur duyarım. Bu nedenle yazılarım bu doğrultuda; ruh sağlığımız konusunda bilinçlenmek, onu iyileştirmek ve korumak üzerine olacaktır. Şimdiden herkese teşekkür ederim.
