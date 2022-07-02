@@ -315,7 +315,7 @@ function HomePage({ data, items }) {
         <Row className={styles.contentCenter}>
           <iframe
             className={styles.spotifySize}
-            src="https://open.spotify.com/embed/playlist/5W1bxql58QBOWDRrmC0xqx"
+            src="https://open.spotify.com/embed/playlist/4b3P2iMl4CuCgNKRl6eib0?utm_source=generator&theme=0"
             width="80%"
             height="400"
             frameborder="0"
