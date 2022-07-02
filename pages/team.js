@@ -53,9 +53,9 @@ function Team() {
                           <h4 className={styles.name}>Güngör Öztürk</h4>
                           <p>
                             Merhaba, ben Güngör Öztürk. Konya Teknik
-                            Üniversitesi Bilgisayar Mühendisliği Bölümü 3.sınıf
-                            öğrencisiyim. Bugün uzun zamandır hayalini kurduğum
-                            bu platformda, Betik çatısı altında sizlerle
+                            Üniversitesi Bilgisayar Mühendisliği Bölümü
+                            mezunuyum. Bugün uzun zamandır hayalini kurduğum bu
+                            platformda, Betik çatısı altında sizlerle
                             buluşabildiğim için çok mutluyum. Değişen zamanla
                             birlikte bilginin değerinin de ivmelenerek arttığını
                             ve bu bilgileri sadece kendimize saklamak yerine
@@ -286,8 +286,6 @@ function Team() {
               </Card>
             </Col>
           </Row>
-
-        
         </Container>
       </main>
     </Layout>
