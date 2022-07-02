@@ -20,7 +20,7 @@
     "isomorphic-unfetch": "^3.0.0",
     "markdown-to-jsx": "^7.0.1",
     "moment": "^2.29.1",
-    "next": "^9.5.3",
+    "next": "^10.0.3",
     "qs": "^6.9.4",
     "raw-loader": "^4.0.2",
     "react": "^16.13.1",
