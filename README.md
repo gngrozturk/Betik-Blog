@@ -21,8 +21,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 
 ## Learn More
-To learn more about React Native, take a look at the following resources:
-- [Nextjs](https://nextjs.org/docs/getting-started)
+To learn more about Next.js, take a look at the following resources:
+- [Next.js](https://nextjs.org/docs/getting-started)
 
 
 ## Contact
