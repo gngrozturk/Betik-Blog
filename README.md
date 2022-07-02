@@ -4,6 +4,19 @@ I started using Next.js to develop a blog with the JAMStack approach and gain ex
 
 ![betikblog](https://i.hizliresim.com/t6sbJd.png)
 
+## Getting Started
+
+In your terminal change into project folder that you created then run:
+```bash
+npm install --save --legacy-peer-deps
+```
+to install required dependencies.
+
+Then run:
+```bash
+npm run dev
+```
+
 ## Contact
 Email: gungorozturk.dev@gmail.com
 <p align="left">
