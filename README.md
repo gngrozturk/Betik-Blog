@@ -16,7 +16,13 @@ Then run:
 ```bash
 npm run dev
 ```
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+## Learn More
+To learn more about React Native, take a look at the following resources:
+- [Nextjs](https://nextjs.org/docs/getting-started)
+- 
 ## Contact
 Email: gungorozturk.dev@gmail.com
 <p align="left">
