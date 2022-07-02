@@ -1,0 +1,21 @@
+---
+slug: online-manipulasyon-27
+title: Online Manipülasyon
+author: Güngör Öztürk
+username: gungorozturk
+banner: https://ak.picdn.net/shutterstock/videos/1019939626/thumb/1.jpg
+date: September 14, 2020
+---
+
+Herkese Selam. Daha önce hiç manipülasyona maruz kaldığınız ya da birisini manipüle ettiğiniz oldu mu? TDK sözlüğüne göre manipülasyon; "yönlendirme, yönlendirim" anlamlarında kullanılmakla birlikte bir kişinin bir başka kişinin duygularını, fikirlerini hatta kararlarını kendi istekleri doğrultusunda yönlendirmesi olarak özetlenebilir. Kimine göre bir sanat, kimine göre ise çok da etik olmayan bu durum günümüz teknolojisinin beraberinde getirdiği olanaklarla birlikte başka bir boyuta ulaşmış bulunuyor. Önceden bu durum bire bir iletişimde gerçekleşirken artık sahip olduğumuz teknolojiler aracılığıyla geniş kitleler kolay bir biçimde manipüle edilebiliyor.
+
+Birçok platoformda çeşitli yöntemlerle gerçekleşen bu manipülasyonlar bizleri alışveriş yaparken, oy kullanırken, sosyal medyada paylaşım yaparken hatta kişisel hayatımızın gündemini oluştururken akıl almaz ölçüde etkileyebilir ve adeta bir kuklaya çevirebilir. Abartılı bulanlar için; Facebook'un, kullanıcıların duygularını etkileyip etkileyemeyeceklerini görmek için 689.000’den fazla kullanıcının gördüğü içeriği manipüle ettiği ve sonrasında bu kullanıcıların paylaşımlarını “deney” başlığı altında takip ettiği olayı hatırlayalım. Facebook bu deney kapsamında kullanıcıların gördüğü olumlu duygusal içeriklerin sayısını azalttı ve sonrasında bu kullanıcıların olumlu duygusal içerik paylaşımlarında bir azalma, olumsuz duygusal içerik paylaşımlarında ise artış gözlemledi. Deneyin ikinci aşamasında ise kullanıcıların gördüğü olumsuz duygusal içeriklerin sayısı azaltıldığında da kullanıcıların olumsuz duygusal içerik paylaşımlarında azalma, olumlu duygusal içerik paylaşımlarında artış gözlemledi. Yani Facebook hatrı sayılır sayıdaki kullanıcının duygularını manipüle etmeyi başardı.
+
+Online manipülasyon için birçok yöntem bulunmakla birlikte bunların en bilinenlerinden biri de “Dark Patterns”dır. Dark Patterns web sitelerinde ve uygulamalarda, bir şey satın almak veya bir şeye kaydolmak gibi istemediğiniz şeyleri yapmanızı sağlayan hilelerdir. Web sitelerini ve uygulamaları kullandığınızda sayfadaki her kelimeyi okumazsınız. Sayfaya göz atıp varsayımlarda bulunursunuz. Bir şirket sizi bir şey yapmanız için kandırmak, yönlendirmek isterse bir sayfanın aslında başka bir şey söylüyormuş gibi görünmesini sağlayarak bundan yararlanabilir. Birçok Dark Patterns türü bulunup bunların bazılarını muhtemelen siz de tecrübe etmişsinizdir. Örneğin “Zorla Süreklilik”. Bir hizmette ücretsiz denemeniz sona erdiğinde kredi kartınız herhangi bir uyarı olmadan sessizce ücretlendirilmeye başlar. Bazı durumlarda üyeliğin iptal edilmesi zorlaştırılarak durum daha da kötüleştirilir. Bir başka örnek “Gizli Maliyet”. Bu örnekte sistem teslimat ücreti, vergi v.b. beklenmedik maliyetleri ödeme işleminin son adımında kullanıcının karşısına çıkartır. Ve daha birçok benzer örnek...
+
+Bir başka online manipülasyon yöntemi de varsayılanların ikna gücünden faydalanmaktır. Arama sonuçlarında hangi sıradaki siteye önce tıkladığınızı bir düşünün. Kullanıcıların geneli ilk sıradakine tıklarlar. Varsayılan olarak birinci sırada gelen site kullanıclar için daha cazip geliyor. Bu da sıralamanın kullanıcıların kararını etkilediğini gösteriyor ve tabii ki birçok şirket bundan faydalanıyor.
+
+Kısacası seçtiğimiz seçmediğimiz ürünler, kullandığımız oylar, fikirlerimiz, duygularımız, kararlarımız... Bunlar sandığımız kadar bizlere ait olmayabilir. Kitleleri yönlendirmek bu denli kolay bir hal almışken artık her zamankinden daha fazla düşünmeliyiz. Acaba X ürününü almayı gerçekten istiyor musunuz? Yoksa istemeniz mi sağlanıyor? Acaba şu an hissetiğiniz şeyler gerçek hisleriniz mi? Yoksa öyle hissetmeniz için yönlendiriliyor musunuz?
+
+Peki, bu durumdan kendimizi nasıl koruyabiliriz? Her ne olursa olsun içinde bulunduğumuz internet ortamının çok da masum bir yer olmadığı gerçeğiyle yüzleşmek bizler için potansiyel tehdidi azaltacaktır. Algılarımızı açık tutup önümüze konan her bilgiyi, duyguyu, fikri doğrudan kabul etmeyerek gerçek dünya ile bağımızı koparmadığımız sürece güvendeyiz demektir. Zaman ayırıp okuduğunuz için teşekkür ederim.
+

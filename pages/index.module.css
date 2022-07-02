@@ -1,0 +1,248 @@
+.typewritter {
+  font-size: 1.4rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  background-color: #f5f5f5;
+  color: #5f9bb8;
+  padding-top: 6vh;
+  text-align: center;
+  border-top: 5px solid #5f9bb8;
+  border-bottom: 5px solid #5f9bb8;
+}
+
+.text {
+  height: 10vh;
+}
+
+.headerInfo {
+  font-size: 1.2rem;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
+}
+
+.link {
+  color: #5f9bb8;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #5f9bb8;
+}
+
+.iconHeader {
+  width: 30px;
+  height: 30px;
+  margin-right: 0.3em;
+}
+
+.headerAlign {
+  justify-content: center;
+  margin-top: 0.5em;
+}
+
+.cardGeneral {
+  text-align: center;
+  box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.5);
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+}
+
+.cardGeneral:hover {
+  transform: translateY(-0.5rem) scale(1.0125);
+  box-shadow: 0 0.5em 3rem -1rem rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.cardTitle {
+  font-size: 1.45em;
+}
+
+.contentCenter {
+  justify-content: center;
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+}
+
+.buttonCenter {
+  justify-content: center;
+}
+
+.titleCenter {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 2.25em;
+}
+
+.announceCard {
+  border-radius: 50px 0 50px 0;
+  box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.5);
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+}
+.announceTitle {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+}
+.announceText {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.names {
+  text-align: center;
+}
+
+.links {
+  color: #212529;
+}
+
+.links:hover {
+  text-decoration: none;
+  color: #212529;
+}
+.nameSize {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+.team {
+  padding: 0.4em;
+  background-color: #f5f5f5;
+  font-family: "Raleway", sans-serif;
+}
+
+.teamCol {
+  margin-bottom: 1em;
+}
+
+.personImg {
+  margin-top: 1em;
+  padding-right: 0.65em;
+  padding-left: 0.65em;
+}
+
+.btnGrad {
+  padding: 0.6em;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 30px;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-image: linear-gradient(
+    to right,
+    #496f86 0%,
+    #26a0da 50%,
+    #496f86 100%
+  );
+  transition: 0.5s;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btnGrad:hover {
+  background-position: right center;
+  text-decoration: none;
+  color: white;
+}
+
+.btnDetail {
+  padding: 0.5em;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 30px;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-image: linear-gradient(
+    to right,
+    #db840b 0%,
+    #edba5d 50%,
+    #db840b 100%
+  );
+  transition: 0.5s;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btnDetail:hover {
+  background-position: right center;
+  text-decoration: none;
+  color: white;
+}
+
+.btnYoutube {
+  padding: 0.5em;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 30px;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-image: linear-gradient(
+    to right,
+    #ff0000 0%,
+    #fc5959 50%,
+    #ff0000 100%
+  );
+  transition: 0.5s;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btnYoutube:hover {
+  background-position: right center;
+  text-decoration: none;
+  color: white;
+}
+
+.btnAlign {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.iconSpotify {
+  width: 1.25em;
+  height: 1.25em;
+  align-self: center;
+}
+
+@media screen and (min-width: 992px) {
+  .cardTitle {
+    height: 60px;
+  }
+
+  .cardImg {
+    max-height: 135px;
+    object-fit: cover;
+  }
+
+  .typewritter {
+    font-size: 1.75rem;
+    padding-top: 15vh;
+    min-height: 30vh;
+  }
+
+  .headerInfo {
+    padding-bottom: 5vh;
+    padding-top: 12vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .videoSize {
+    max-height: 200px;
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+  .spotifySize {
+    max-height: 400px;
+  }
+
+  .headerInfo {
+    display: none;
+  }
+
+  .text {
+    height: 15vh;
+  }
+}

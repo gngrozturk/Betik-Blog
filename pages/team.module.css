@@ -1,0 +1,74 @@
+.rowCenter {
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+.name {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+}
+
+.title{
+  font-family: "Raleway", sans-serif;
+  font-size: 2.25em;
+}
+.teamGeneral {
+  font-family: "Roboto", sans-serif;
+}
+.personCard {
+  border-radius: 50px 0 50px 0;
+  padding: 0.5em;
+  box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.5);
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+}
+
+.mediaRow {
+  justify-content: center;
+}
+
+
+.icon {
+  width: 25px;
+  height: 25px;
+  margin: 1em;
+}
+
+.btnGrad {
+  padding: 0.4em;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 30px;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-image: linear-gradient(
+    to right,
+    #496f86 0%,
+    #26a0da 50%,
+    #496f86 100%
+  );
+  transition: 0.5s;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btnGrad:hover {
+  background-position: right center;
+  text-decoration: none;
+  color: white;
+}
+
+.btnAlign {
+  justify-content: end;
+  margin-right: 1em;
+}
+
+@media screen and (max-width: 900px) {
+  .name {
+    text-align: center;
+  }
+
+  .btnAlign {
+    justify-content: center;
+    margin-right: 0;
+  }
+}

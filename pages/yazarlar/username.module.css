@@ -1,0 +1,53 @@
+.pageGeneral{
+    min-height: 85vh;
+  }
+  
+  .links {
+    color: #212529;
+  }
+  
+  .links:hover {
+    text-decoration: none;
+    color: #212529;
+  }
+  
+  .cardGeneral {
+    text-align: center;
+    box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.5);
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .cardTitle{
+    font-size: 1.45em;
+  }
+  
+  .cardGeneral:hover {
+    transform: translateY(-0.5rem) scale(1.0125);
+    box-shadow: 0 0.5em 3rem -1rem rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  
+  .contentCenter {
+    justify-content: center;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+  }
+  
+  .titleCenter {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 2.25em;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .cardTitle{
+      height: 60px;
+    }
+  
+    .cardImg {
+      max-height: 135px;
+      object-fit: cover;
+    }
+  }

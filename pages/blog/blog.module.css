@@ -1,0 +1,77 @@
+.text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.065rem;
+  object-fit: cover;
+}
+
+.titles {
+  font-family: "Raleway", sans-serif;
+}
+
+.text img {
+  width: 100%;
+}
+
+
+.line {
+  background-image: linear-gradient(90deg, #1da1f2, #f5f5f5);
+  border: 0;
+  height: 1px;
+}
+
+.share {
+  text-align: right;
+  align-self: center;
+}
+
+.share * {
+  cursor: pointer;
+  margin-bottom: 5px;
+} 
+
+.content {
+  justify-content: center;
+  margin-top: 1.5em;
+}
+
+.abstract {
+  justify-content: center;
+}
+
+.publishDate {
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+}
+
+.btnGrad {
+  padding: 0.6em;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 30px;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-image: linear-gradient(
+    to right,
+    #db840b 0%,
+    #edba5d 50%,
+    #db840b 100%
+  );
+  transition: 0.5s;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btnGrad:hover {
+  background-position: right center;
+  text-decoration: none;
+  color: white;
+}
+
+.btnAlign {
+  justify-content: end;
+  margin-right: 1em;
+}
+
+.text a {
+  word-wrap: break-word;
+}

@@ -1,0 +1,28 @@
+---
+slug: yaratici-olmakolmak-34
+title: Yaratıcı Olmak(Olmak)
+author: Melih Can Ekşioğlu
+username: melihcaneksioglu
+banner: https://images.unsplash.com/photo-1497048679117-1a29644559e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
+date: September 7, 2020
+---
+
+Eğer bir ormana bin yıl önce girmiş olsaydınız ve o ormana şimdi yine girseniz arada çok büyük bir fark görmeniz beklenmez. Her zaman yaşadıkları hayatı yaşayan hayvanlar, her zamanki gibi büyüyen bitkiler ve var oldukları süreçten beri aynı işlevleri yerine getiren mikroorganizmalar bulunur. Tüm bu canlılardan farklı olarak bizler ise dünyayı tamamen değiştirdik ve halen değiştirmeye devam ediyoruz. Yemek yemek gibi temel bir ihtiyacı bile özel sunumlar, dinlendirme teknikleri, marinasyon işlemleri gibi çok uzun süreçlerden geçiriyoruz. Doğadaki diğer canlılar gibi bulduğumuz besini ağzımıza hemen atmıyoruz onu uzun bir hazırlık sürecine tabii tutuyoruz. Peki bizi diğer canlılardan ayıran ne?
+
+Neden atalarımız mağara duvarlarına resim yapmış?
+
+Mağaralarda başlayan bu yolculuk nasıl olmuş da uzayın derinliklerine seyahat edecek kadar ileriye gidebilmiş?
+
+Diğer canlıların beyinlerine incelediğimizde algılama ve yanıtlama tepkileri arası mesafe çok kısa tam da bu noktada insan beynini özel kılan bir durum göze çarpmakta. Diğer tüm canlılara nazaran algı ve tepki arası boşluk insan da çok daha fazla. Evrimsel süreç ile birlikte beynimizin algı ve tepki bölgeleri arasında bir genişleme meydana geldi. Yani herhangi bir şeyi gördüğümüzde beynimizde mutlak biçimde otomatik bir tepkiye yol açmıyor. Bu durum neredeyse sınırsız sayıda farklı yol ile bilgiyi işlememize olanak sağlıyor. (Tabii ki bu yolları sürekli kullanırsak bu işlev aktif olarak çalışabiliyor. Yoksa beynimiz tamamen kullan ya da at sistemine göre çalışıyor ve kullanılmayan yolaklar köreliyor.)
+
+İnsan beynini özel kılan bir diğer durum da pre-frontal korteksin diğer canlılara nazaran daha kalın ve büyük olması. Pre-frontal korteks büyüdükçe hayal gücümüz artıyor. Beynimizin bu kısmı mevcut zaman ve mekandan çıkıp başka yerlere gitmemize olanak sağlar. Henüz var olmayanı düşler.
+
+İnsanoğlu olarak bizler sahip olduğumuz dürtülerin üstesinde gelerek eyleme geçmeden önce seçenekleri değerlendirmeyi öğrendik. Bu da bize hayal kurmayı hep farklı bir yol olabileceğini öğretti. Tüm bu şartlarda bize yaratıcılık gibi mükemmel bir yetenek kazandırdı.
+
+Hayatımızın her anında beynimiz etrafındaki şeyler ile zaten mevcut halde bulunan bilgileri birbirine işliyor. Algıladıklarımız ne kadar kapsamlı ve zenginse beynimiz kullanabileceği veri de o kadar artıyor ve bu bizi daha yaratıcı yapıyor. Tüm yaratıcı fikirler zaten beynimizde ama nöronal bağlantılarımızın derinine inersek bunu fark edebiliyoruz.
+
+Beynimiz sürekli yeni ve heyecanlı olanı ister. Çünkü eski ve alışıldık şeyler beynimizi giderek daha az uyarır. Bu da bizi daha yaratıcı olmak mecburiyetinde bırakır. Yaratıcılık ve varlığımızın yaratıcı kısmı mutlu olabilmemiz için çok önemli. Esaretin Bedeli filminden hepimizin yakından tanıdığı Tim Robbins şu an mahkumlara hapishanede oyunculuk atölyesi veriyor. Ve şöyle diyor “Belki içlerindeki o boşluk hissi ya da yaşadıkları depresyon yaratıcılığının parıltısının eksikliğinden olabilir.” Bizim en sağlıklı içgüdülerimizden olan yaratıcılık yaşama sevincimizin de en önemli kaynağı. Aklımızda hep şu soru ile yaşarız “Senin bu dünyaya kattığın sana ait senin kadar biricik bir şey var mı?” kimimiz bu soruya sahici cevaplar arar kimimiz de varmış gibi yaşar. Bizi insan kılan en temel özelliğimiz eksikliğimiz. Doğuştan bu dünyaya eksik olarak geliriz. Bir ömür o eksikliği kapatmak için bir şeyler ararız. Resim, müzik, tabiat, bilim bunlar o eksikliği kapatmak için bize aracılık eden unsurlardır. İnsan eğer eksik olduğunu kabul eder ve bunu gidermek için bir ömür bu arayış yolculuğuna girerse yaratıcılık iç güdüsü onu besler ve eser ortaya koyar. Ama bu eksikliği kabul etmez ve tamlık illüzyonu içinde yaşarsa biricik var oluşunu dünyaya hissettiremez ve bir ömür sığ bir hayat yaşar.
+
+Şimdi sizlere bir okuldan bahsedeceğim H.O. Wheeler School şehrin fakir mahallesinde bulunan bu okul her geçen yıl başarısızlığa sürükleniyordu. Eyaletin en düşük sınav sonuçları bu okuldaydı. Okul kapanma noktasına kadar geldi. Çözüm için şöyle bir şey denendi. Yaratıcılık ve sanatı tüm derslerin temeline koyacaklardı. Örneğin çocuklar geometriyi soyut sanat üzerinden öğreneceklerdi. Bu şekilde öğretim sürecini tek bir boyuta indirgemekten kurtulmuş oluyorlardı. Böylece öğrencilerin hepsine hitap ediyorlardı. Sanat ve yaratıcılık temelde olunca çocukların ufku açılıyor, eleştirel düşünmeleri kolaylaşıyor, sınırlarını aşmayı öğreniyor ve başarısızlık korkusunu aşıyorlardı. Bu eğitim şekline geçişi sağlayan eğitmen şöyle diyordu:” Bu çocuklar 4. Sınıftaki notlarını hatırlayacaklar mı? Hatırlamayacaklar. Peki eğitim sürecini hatırlayacaklar mı? Elbette. İşte birer insan olarak da gelişmelerini sağlayan bu. Sanatsal tecrübe ile gelen beceriler onları daha iyi insanlar yapıyor. Herhangi bir edebiyat ve matematik sınavından çok daha fazla …” Tüm bu eğitim sürecinden sonra öğrencilerin notları yükseliyor kapanmanın eşiğine gelen bu okul artık tamamen doluyor hatta listede öğrenciler bekliyor.
+
+Yaratıcılığın verdiği bir haz var ve bu bütün hazlardan daha fazla mutlu ediyor bizi. Kişi kendisi oldukça dünyaya yaklaşır. Kişi kendisi oldukça ilişkilerinde mutlu olabilir. Kişi kendisi oldukça kendisine ve dünyaya bir katkıda bulunabilir. Ve bir insanın kim olduğunu ortaya koyduğu işler belirler. Yani yaratıcılık içgüdümüzü besledikçe kendimize de daha çok yaklaşırız.
